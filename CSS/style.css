@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+header {
+    display: flex;
+    height: 10vh;
+    width: 100%;
+    background-color: #c4c4c4;
+    font-size: 1.8rem;
+    align-items: center;
+}
+
+header .page-cv-title{
+    margin-left: 20px;
+}
+
+header .main-nav{
+    align-self: right;
+}
+
+.main-nav a {
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+    border-bottom: 2px solid #456789;
+    background-color: #c4c4c4;
+}
+
+.main-nav input[type="checkbox"],
+.main-nav .fa-bars {
+    position: absolute;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    right: 0;
+    top: 0;
+    width: 48px;
+    height: 48px;
+}
+
+.main-nav .fa-bars{
+    font-size: 48px;
+    pointer-events: none;
+}
+
+.main-nav input[type="checkbox"] {
+    opacity: 0;
+}
+
+.main-nav {
+    color: white;
+    position: absolute;
+    min-height: 48px;
+    width: 100%;
+    
+}
+
+.main-nav nav {
+    display: none;
+    text-align: center;
+}
+
+.main-nav input:checked~nav {
+    display: block;
+    position: absolute;
+    top: 48px;
+    width: 100%;
+    list-style: none;
+}
+
+.main-nav nav a:hover{
+    background-color: #000;
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+}
+
+
+main .landing-face .face-photo{
+    background-image: url(../Assets/Images/Foto-Curriculum.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    margin: 2rem;
+}
