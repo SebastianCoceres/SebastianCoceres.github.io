@@ -134,7 +134,7 @@ header .page-cv-title {
     font-size: 2.4rem;
     padding: 1rem;
     position: absolute;
-    bottom: 0;
+    bottom: calc(0%);
     width: 100%;
 }
 
