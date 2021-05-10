@@ -20,7 +20,7 @@ html {
 header {
     display: flex;
     position: fixed;
-    height: 10vh;
+    height: 8vh;
     width: 100%;
     background-color: #c4c4c4;
     font-size: 1.8rem;
@@ -94,7 +94,6 @@ header .page-cv-title {
 .main-nav nav a:hover{
     background-color: var(--gold);
 }
-
 /*Menu Hamburguesa*/
 
 .landing-face{
