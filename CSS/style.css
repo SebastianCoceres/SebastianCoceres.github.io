@@ -19,82 +19,110 @@ html {
 
 header {
     display: flex;
+<<<<<<< HEAD
     position: fixed;
     height: 8vh;
+=======
+    align-items: center;
+    height: 6rem;
+>>>>>>> change-menu
     width: 100%;
-    background-color: #c4c4c4;
+    background-color: var(--grey);
     font-size: 1.8rem;
+    position: fixed;
+}
+
+
+#toggle{
+    position: fixed;
+    top: 1rem;
+    right: 2rem;
+    width: 4rem;
+    height: 4rem;
+    background-color: var(--grey);
+    cursor: pointer;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
 
-header .page-cv-title{
-    margin-left: 20px;
-}
-
-header .main-nav{
-    align-self: right;
-}
-
-header .page-cv-title {
-    font-size: 2.4rem;
-}
-
-/* Menu hamburguesa*/
-
-.main-nav a {
-    text-decoration: none;
-    display: block;
-    padding: 10px 20px;
-    border-bottom: 2px solid var(--gold);
-    background-color: #c4c4c4;
-    color: var(--black-text);
-}
-
-.main-nav input[type="checkbox"],
-.main-nav .fa-bars {
+#toggle::before {
+    content: '';
     position: absolute;
-    margin: 0;
-    padding: 0;
-    right: 20px;
-    top: calc(50% - 1.5rem);
     width: 3rem;
-    height: 3rem;
+    height: 0.2rem;
+    background-color: var(--gold);
+    transform: translateY(-5px);
+    transition: 0.2s;
 }
 
-.main-nav .fa-bars{
-    font-size: 48px;
-    pointer-events: none;
-}
-
-.main-nav input[type="checkbox"] {
-    opacity: 0;
-}
-
-.main-nav {
-    color: white;
+#toggle::after {
+    content: '';
     position: absolute;
-    min-height: 48px;
-    width: 100%;
-    
+    width: 3rem;
+    height: 0.2rem;
+    background-color: var(--gold);
+    transform: translateY(5px);
+    transition: 0.2s;
 }
 
-.main-nav nav {
+#toggle.active::before{
+    transform: translateY(0) rotate(45deg);
+}
+
+#toggle.active::after{
+    transform: translateY(0) rotate(-45deg);
+}
+
+.main-nav #nav-items {
     display: none;
+    position: fixed;
+    top: 0rem;
+    width: 100%;
+    height: 0;
+    transition: 0.5s;
+}
+
+.main-nav #nav-items.active{
+    display: block;
+    top: 6rem;
+    height: 5rem;
+}
+
+.main-nav #nav-items ul {
+    width: 100%;
     text-align: center;
 }
 
-.main-nav input:checked~nav {
-    display: block;
-    position: absolute;
-    top: 48px;
+.main-nav #nav-items ul:nth-child(1){
+    border-top: 2px solid var(--gold);
+}
+
+.main-nav #nav-items li {
     width: 100%;
+    padding: 0.5rem;
+    background-color: var(--grey);
+    border-bottom: 2px solid var(--gold);
     list-style: none;
 }
 
-.main-nav nav a:hover{
-    background-color: var(--gold);
+.main-nav #nav-items li:hover {
+    background-color: var(--background-color);
 }
-/*Menu Hamburguesa*/
+
+.main-nav #nav-items li:active {
+    background-color: var(--background-color);
+    font-size: 1.4rem;
+}
+
+.main-nav #nav-items li a{
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    color: var(--gold);
+    letter-spacing: 0.2rem;
+}
 
 .landing-face{
     display: flex;
