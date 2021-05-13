@@ -18,6 +18,31 @@ html {
     font-family: "DM Sans", sans-serif;
 }
 
+::-webkit-scrollbar{
+    position: absolute;
+    top: 6rem;
+    width: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--gold);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--background-color);
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+::-webkit-scrollbar-thumb:active {
+    background-color: var(--background-color);
+}
+
+::-webkit-scrollbar-track:hover,
+::-webkit-scrollbar-track:active {
+  background: var(--background-color);
+}
+
 header {
     display: flex;
     align-items: center;
@@ -349,10 +374,24 @@ header {
 .skills-cards_container .skills-card .course-center_logo{
     height: 3rem;
     width: 3rem;
-    background-image: url("../Assets/Images/com.platzi.platzi.jpg");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+    border-radius: 50%;
+    box-shadow: 0px 4px 5px rgba(0,0,0, 0.5);
+}
+
+.skills-cards_container .platzi .course-center_logo{
+    background-image: url("../Assets/Images/com.platzi.platzi.jpg");
+}
+
+.skills-cards_container .Axigma .course-center_logo{
+    background-image: url("../Assets/Images/Axigma.jpg");
+    border: 1px solid rgba(0,0,0, 0.5);
+}
+
+.skills-cards_container .Linkedin .course-center_logo{
+    background-image: url("../Assets/Icons/svg/Linkedin.svg");
 }
 
 .skills-cards_container .course{
@@ -398,7 +437,7 @@ header {
     margin-bottom: 2rem;
 }
 
-.experience span{
+.experience .experience-title span{
     display: inline-block;
     height: 3rem;
     width: 3rem;
@@ -420,11 +459,11 @@ header {
     padding: 1rem;
 }
 .experience .card-head .card-head_image{
-    margin-right: 2rem;
+    margin-right: 1.5rem;
 }
 .experience .card-head .card-head_image img{
-    height: 8rem;
-    width: 8rem;
+    height: 6rem;
+    width: 6rem;
     border-radius: 50%;
     box-shadow: 4px 4px 5px rgba(0,0,0, 0.5);
 }
@@ -432,12 +471,12 @@ header {
 .experience .card-head .card-head_title{
     width: 70%;
     color: var(--white-text);
-    font-size: 1.4rem;
+    font-size: 1rem;
     line-height: 1.4;
 }
 
 .experience .card-head .card-head_title h3{
-    font-size: 1.8rem;
+    font-size: 1.4rem;
 }
 
 .experience .card-head .card-head_title a{
@@ -448,6 +487,17 @@ header {
 
 .experience .card-head .card-head_title a:hover{
     color: var(--gold);
+}
+
+.experience .card-head .card-head_title .open-link{
+    display: inline-block;
+    height: 1rem;
+    width: 1rem;
+    background-image: url("../Assets/Icons/svg/move-window-white.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 0.5rem;
 }
 
 .experience .card-job_title{
