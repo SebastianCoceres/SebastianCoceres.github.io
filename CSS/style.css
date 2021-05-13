@@ -26,6 +26,8 @@ header {
     background-color: var(--grey);
     font-size: 1.8rem;
     position: fixed;
+    border-bottom: 1px solid rgba(0,0,0, 0.5);
+    opacity: 0.9;
 }
 
 
@@ -82,7 +84,7 @@ header {
 
 .main-nav #nav-items.active{
     display: block;
-    top: 6rem;
+    top: 5.9rem;
     height: 5rem;
 }
 
@@ -201,9 +203,280 @@ header {
     height: 1vh;
 }
 
+.aboutMe {
+    font-size: 1.4rem;
+    padding: 3rem;
+    background-color: var(--grey);
+}
+
+.aboutMe .aboutMe-title{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    justify-items: center;
+    align-items: center;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+.aboutMe-title span{
+    display: inline-block;
+    height: 3rem;
+    width: 3rem;
+    grid-column: 1/2;
+    background-image: url("../Assets/Icons/svg/user.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.aboutMe-title h2{
+    font-size: 2.4rem;
+}
+
+.education-container{
+    padding: 3rem;
+}
+
+.education-title{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    justify-items: center;
+    align-items: center;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+.education span{
+    display: inline-block;
+    height: 3rem;
+    width: 3rem;
+    grid-column: 1/2;
+    background-image: url("../Assets/Icons/svg/book.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.education h2 {
+    font-size: 2.4rem;
+}
+
+.education .education-college{
+    background-color: var(--grey);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.education .education-college h3 {
+    font-size: 2rem;
+}
+
+.education .education-college h3 a{
+    text-decoration: none;
+    color: var(--black-text);
+}
+
+.education .education-college h3 a:hover{
+    color: var(--gold);
+}
+
+.education .education-college p{
+    font-size: 1.6rem;
+    margin-top: 1rem;
+    font-weight: bold;
+    color: var(--grey-text);
+}
+
+.education .education-description {
+    padding: 2rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.skills {
+    /* background-color: var(--grey); */
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    flex-direction: column;
+}
+
+.skills .skills-title{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    justify-items: center;
+    align-items: center;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+.skills-title h2{
+    font-size: 2.4rem;
+}
+
+.skills-title span{
+    display: inline-block;
+    height: 3rem;
+    width: 3rem;
+    grid-column: 1/2;
+    background-image: url("../Assets/Icons/svg/compass.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.skills-cards_container {
+    width: 100%;
+}
+
+.skills-cards_container .skills-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.skills-cards_container .course-center-img{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-self: flex-start;
+}
+
+.skills-cards_container .skills-card .course-center_logo{
+    height: 3rem;
+    width: 3rem;
+    background-image: url("../Assets/Images/com.platzi.platzi.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.skills-cards_container .course{
+    width: 80%;
+    padding-left: 2rem;
+    font-size: 1.4rem;
+}
+
+.skills-cards_container .course .course-name{
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+
+.skills-cards_container .skills-card .course-center-info{
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+}
+
+.skills-cards_container .skills-card .course-description{
+    margin-top: 2rem;
+}
+
+.experience{
+    background-color: var(--grey);
+    padding: 3rem;
+}
+
+.experience .cards{
+    margin-bottom: 2rem;
+    background-color: var(--background-color);
+    border-radius: 1rem;
+    padding: 2rem;
+    box-shadow: 0px 4px 5px rgba(0,0,0, 0.5);
+}
+
+.experience-title{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    justify-items: center;
+    align-items: center;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+.experience span{
+    display: inline-block;
+    height: 3rem;
+    width: 3rem;
+    grid-column: 1/2;
+    background-image: url("../Assets/Icons/svg/order.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.experience h2 {
+    font-size: 2.4rem;
+}
+
+.experience .card-head{
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    padding: 1rem;
+}
+.experience .card-head .card-head_image{
+    margin-right: 2rem;
+}
+.experience .card-head .card-head_image img{
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+    box-shadow: 4px 4px 5px rgba(0,0,0, 0.5);
+}
+
+.experience .card-head .card-head_title{
+    width: 70%;
+    color: var(--white-text);
+    font-size: 1.4rem;
+    line-height: 1.4;
+}
+
+.experience .card-head .card-head_title h3{
+    font-size: 1.8rem;
+}
+
+.experience .card-head .card-head_title a{
+    text-decoration: none;
+    color: var(--white-text);
+    max-width: 100%;
+}
+
+.experience .card-head .card-head_title a:hover{
+    color: var(--gold);
+}
+
+.experience .card-job_title{
+    padding: 1rem;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    color: var(--white-text);
+    font-size: 1.8rem;
+}
+
+.experience .card-job_description {
+    width: 90%;
+    margin: 0 auto;
+    background-color: var(--grey);
+    padding: 2rem;
+    font-size: 1.4rem;
+    border-radius: 1rem;
+}
+
+.experience .card-job_description ul{
+    margin-left: 2rem;
+    line-height: 1.8;
+    margin-top: 1rem;
+    font-size: 1rem;
+}
 
 .contact {
-    background-color: var(--grey);
+    /* background-color: var(--grey); */
     height: auto;
     display: flex;
     justify-content: center;
@@ -310,135 +583,11 @@ header {
     background-repeat: no-repeat;
 }
 
-.education-container{
-    padding: 3rem;
-}
-
-.education-title{
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    justify-items: center;
-    align-items: center;
-    padding: 1rem;
-    margin-bottom: 2rem;
-}
-
-.education span{
-    display: inline-block;
-    height: 3rem;
-    width: 3rem;
-    grid-column: 1/2;
-    background-image: url("../Assets/Icons/svg/book.svg");
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.education h2 {
-    grid-column: 2/3;
-    font-size: 2.4rem;
-}
-
-.education .education-college{
-    background-color: var(--grey);
-    padding: 2rem;
-    border-radius: 1rem;
-}
-
-.education .education-college h3 {
-    font-size: 2rem;
-}
-
-.education .education-college h3 a{
-    text-decoration: none;
-    color: var(--black-text);
-}
-
-.education .education-college h3 a:hover{
-    color: var(--gold);
-}
-
-.education .education-college p{
-    font-size: 1.6rem;
-    margin-top: 1rem;
-    font-weight: bold;
-    color: var(--grey-text);
-}
-
-.education .education-description {
-    padding: 2rem;
-    font-size: 1.4rem;
-    font-weight: 500;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 footer {
     height: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: var(--background-color);
-}
-
-footer span {
-    display: inline-block;
-    width: 3rem;
-    height: 3rem;
-    margin: 1rem;
-}
-
-footer a:nth-child(1) span{
-    background-image: url("../Assets/Icons/svg/phone.svg");
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-footer a:nth-child(2) span{
-    background-image: url("../Assets/Icons/svg/pin.svg");
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-footer a:nth-child(3) span{
-    background-image: url("../Assets/Icons/svg/Gmail.svg");
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-footer a:nth-child(4) span{
-    background-image: url("../Assets/Icons/svg/Linkedin.svg");
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-footer a:nth-child(5) span{
-    background-image: url("../Assets/Icons/svg/Twitter.svg");
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-footer a:nth-child(6) span{
-    background-image: url("../Assets/Icons/svg/Github.svg");
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
+    color: var(--white-text);
 }
