@@ -1,7 +1,15 @@
-/* html{
-    font-size: 90%;
+html{
+    font-size: 80%;
 
-} */
+}
+
+header{
+    height: 10rem;
+}
+
+.main-nav #nav-items ul{
+    font-size: 2rem;
+}
 
 .experience .experience-title,
 .skills .skills-title,
@@ -30,8 +38,8 @@
 
 
 .landing-face .face-photo {
-    width: 30rem;
-    height: 30rem;
+    width: 40rem;
+    height: 40rem;
     margin-top: 5rem;
 }
 
@@ -70,11 +78,11 @@
 }
 
 .experience .card-head{
-    min-height: 250px;
+    min-height: 200px;
 }
 
 .experience .card-head .card-head_title h3{
-    font-size: 2.4rem;
+    font-size: 3rem;
 }
 
 .experience .card-head .card-head_title{
@@ -87,7 +95,7 @@
 
 .experience .card-job_description{
     font-size: 1.8rem;
-    min-height: 600px;
+    min-height: 400px;
 }
 
 .experience .card-job_description ul {
@@ -115,4 +123,8 @@
 
 .reference .reference-contacts .reference-name {
     font-size: 2.4rem;
+}
+
+footer{
+    font-size: 2rem;
 }

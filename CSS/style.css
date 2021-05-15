@@ -23,10 +23,6 @@ html {
     font-family: "DM Sans", sans-serif;
 }
 
-body {
-    width: 100%;
-}
-
 ::-webkit-scrollbar {
     position: absolute;
     top: 6rem;
@@ -55,6 +51,7 @@ body {
 header {
     display: flex;
     align-items: center;
+    justify-content: flex-end;
     height: 6rem;
     width: 100%;
     background: var(--grey);
@@ -65,9 +62,7 @@ header {
 
 
 #toggle {
-    position: fixed;
-    top: 1rem;
-    right: 2rem;
+    margin-right: 3rem;
     width: 4rem;
     height: 4rem;
     cursor: pointer;
@@ -104,11 +99,14 @@ header {
     transform: translateY(0) rotate(-45deg);
 }
 
+.main-nav{
+    width: 100%;
+    position: absolute;
+    top: 5.9rem;
+}
+
 .main-nav #nav-items {
     display: none;
-    position: fixed;
-    top: 0rem;
-    width: 100%;
 }
 
 .main-nav #nav-items.active {
@@ -118,6 +116,7 @@ header {
 
 .main-nav #nav-items ul {
     text-align: center;
+    list-style: none;
 }
 
 .main-nav #nav-items ul:nth-child(1) {
@@ -137,6 +136,7 @@ header {
 
 .main-nav #nav-items li:hover {
     background-color: var(--background-color);
+    border-radius: 2rem;
 }
 
 .main-nav #nav-items li:active {
@@ -180,7 +180,7 @@ footer{
 
 
 .landing-face .face-photo {
-    background-image: url(../Assets/Images/Foto-Curriculum.jpg);
+    background-image: url("../Assets/Images/Foto-Curriculum.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -415,7 +415,7 @@ footer{
 }
 
 .skills-cards_container .platzi .course-center_logo {
-    background-image: url("../Assets/Images/com.platzi.platzi.jpg");
+    background-image: url("../Assets/Images/com.platzi.platzi.webp");
 }
 
 .skills-cards_container .Axigma .course-center_logo {
@@ -646,15 +646,15 @@ footer{
 }
 
 .git .computer-skill-logo span {
-    background-image: url("../Assets/Icons/svg/Git.png");
+    background-image: url("../Assets/Icons/svg/Git.webp");
 }
 
 .ubuntu .computer-skill-logo span {
-    background-image: url("../Assets/Icons/svg/ubuntu.png");
+    background-image: url("../Assets/Icons/svg/ubuntu.webp");
 }
 
 .DB-skill .computer-skill-logo span {
-    background-image: url("../Assets/Icons/svg/dataBase.png");
+    background-image: url("../Assets/Icons/svg/dataBase.webp");
 }
 
 .Excel .computer-skill-logo span {

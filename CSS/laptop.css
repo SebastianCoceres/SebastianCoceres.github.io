@@ -1,0 +1,34 @@
+#toggle{
+    display: none;
+}
+
+header .main-nav{
+    position: relative;
+    top: 0;
+}
+
+.main-nav #nav-items{
+    display: block;
+}
+
+.main-nav #nav-items ul{
+    display: flex;
+    font-size: 1.4rem;
+    border-bottom: 0px;
+    justify-content: center;
+}
+
+.main-nav #nav-items li{
+    border-bottom: 0px;
+    margin: 0 1rem;
+}
+
+
+.main-nav #nav-items ul:nth-child(1){
+    border-top: 0px;
+}
+
+.main-nav #nav-items ul:last-child{
+    border-bottom: 0px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0);
+}
