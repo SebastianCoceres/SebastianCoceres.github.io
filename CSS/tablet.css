@@ -1,7 +1,7 @@
-html {
+/* html {
     font-size: 80%;
 
-}
+} */
 
 .landing-face .face-photo {
     width: 20rem;
@@ -46,6 +46,10 @@ html {
     max-width: 800px;
 }
 
+.education .education-container .education-card{
+    margin: 1rem;
+}
+
 .skills .skills-cards_container {
     display: flex;
     flex-wrap: wrap;
@@ -56,7 +60,6 @@ html {
     width: 100%;
     max-width: 800px;
     min-width: 500px;
-    min-height: 400px;
 }
 
 .experience .experience-cards {
@@ -84,7 +87,7 @@ html {
 }
 
 .contact .contact-container {
-    max-width: 800px;
+    max-width: 500px;
     width: 100%;
     flex-direction: row;
     flex-wrap: wrap;
@@ -92,8 +95,8 @@ html {
 }
 
 .contact .contact-container div {
-    width: 45%;
-    min-width: 300px;
+    width: 30%;
+    min-width: 200px;
     max-width: 400px;
     margin: 0.5rem;
 }

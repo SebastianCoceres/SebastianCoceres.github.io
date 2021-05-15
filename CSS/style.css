@@ -435,6 +435,7 @@ footer{
     width: 80%;
     padding-left: 2rem;
     font-size: 1.4rem;
+    align-self: flex-start;
 }
 
 .skills-cards_container .course .course-name {
@@ -446,6 +447,8 @@ footer{
 .skills-cards_container .skills-card .course-center-info {
     letter-spacing: 0.1rem;
     font-weight: 500;
+    padding-bottom: 1rem;
+    border-bottom: 0.2rem solid var(--gold);
 }
 
 .skills-cards_container .skills-card .course-description {
@@ -477,8 +480,10 @@ footer{
 
 .experience .experience-title span {
     display: inline-block;
-    height: 3rem;
-    width: 3rem;
+    min-height: 3rem;
+    min-width: 3rem;
+    width: 100%;
+    height: 100%;
     grid-column: 1/2;
     background-image: url("../Assets/Icons/svg/order.svg");
     background-size: contain;
