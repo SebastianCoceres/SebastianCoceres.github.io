@@ -174,8 +174,8 @@ footer{
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 90vh;
     background-color: var(--background-color);
+    padding: 3rem;
 }
 
 

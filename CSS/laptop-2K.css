@@ -1,3 +1,9 @@
+.relleno{
+    height: 6rem;
+    width: 100%;
+}
+
+
 .landing-face,
 .aboutMe {
     width: 50%;
@@ -10,9 +16,6 @@
 .top-page-container{
     display: flex;
 }
-
-
-
 
 .education .education-container {
     max-width: 1440px;
