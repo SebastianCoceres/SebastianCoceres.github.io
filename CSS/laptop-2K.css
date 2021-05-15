@@ -1,0 +1,8 @@
+.landing-face,
+.aboutMe {
+    width: 50%;
+}
+
+.top-page-container{
+    display: flex;
+}

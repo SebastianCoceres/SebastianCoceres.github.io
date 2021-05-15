@@ -23,7 +23,7 @@ html {
     font-family: "DM Sans", sans-serif;
 }
 
-body{
+body {
     width: 100%;
 }
 
@@ -57,11 +57,10 @@ header {
     align-items: center;
     height: 6rem;
     width: 100%;
-    background-color: var(--grey);
+    background: var(--grey);
     font-size: 1.8rem;
     position: fixed;
     border-bottom: 1px solid rgba(0, 0, 0, 0.5);
-    opacity: 0.9;
 }
 
 
@@ -71,9 +70,7 @@ header {
     right: 2rem;
     width: 4rem;
     height: 4rem;
-    background-color: var(--grey);
     cursor: pointer;
-    /* border: 1px solid black; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -157,6 +154,18 @@ header {
 
 .main-nav #nav-items li a:hover {
     color: var(--gold);
+}
+
+.landing-face,
+.aboutMe,
+.education,
+.skills,
+.experience,
+.computer-skill,
+.contact,
+.reference,
+footer{
+    border-top: 0.5rem solid var(--gold);
 }
 
 .landing-face {
@@ -264,7 +273,7 @@ header {
     margin-left: 2rem;
 }
 
-.aboutMe-container{
+.aboutMe-container {
     padding: 2rem;
 }
 

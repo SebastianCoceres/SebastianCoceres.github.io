@@ -1,4 +1,4 @@
-html{
+html {
     font-size: 80%;
 
 }
@@ -9,7 +9,7 @@ html{
     margin-top: 5rem;
 }
 
-.landing-knowme{
+.landing-knowme {
     margin-top: 2rem;
 }
 
@@ -19,19 +19,19 @@ html{
 .aboutMe .aboutMe-title h2,
 .computer-skill .computer-skill-title h2,
 .contact .contact-title h2,
-.reference .reference-title h2{
+.reference .reference-title h2 {
     justify-self: center;
 }
 
 
-.aboutMe{
+.aboutMe {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
 }
 
-.aboutMe-container{
+.aboutMe-container {
     max-width: 800px;
 }
 
@@ -43,42 +43,44 @@ html{
 }
 
 .education .education-container {
-    
+
     max-width: 800px;
 }
 
-.skills .skills-cards_container{
+.skills .skills-cards_container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.skills .skills-cards_container .skills-card{
+.skills .skills-cards_container .skills-card {
     width: 100%;
     max-width: 800px;
     min-width: 600px;
+    min-height: 350px;
 }
 
-.experience .experience-cards{
+.experience .experience-cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.experience .cards{
+.experience .cards {
     width: 48%;
     max-width: 650px;
     margin: 0.5rem;
 }
 
-.experience .card-head .card-head_title{
+.experience .card-head .card-head_title {
     font-size: 1.2rem;
 }
-.experience .card-head .card-head_title h3{
+
+.experience .card-head .card-head_title h3 {
     font-size: 1.6rem;
 }
 
-.computer-skills-container{
+.computer-skills-container {
     max-width: 800px;
 }
 
@@ -90,18 +92,18 @@ html{
     justify-content: center;
 }
 
-.contact .contact-container div{
+.contact .contact-container div {
     min-width: 320px;
     max-width: 48%;
     margin: 0.5rem;
 }
 
-.contact a{
+.contact a {
     margin-left: 2rem;
 }
 
 
-.reference .reference-contacts{
+.reference .reference-contacts {
     display: flex;
     justify-content: center;
     align-items: center;
