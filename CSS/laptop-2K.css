@@ -3,6 +3,50 @@
     width: 50%;
 }
 
+.landing-face {
+    border-right: 0.5rem solid var(--gold);
+}
+
 .top-page-container{
     display: flex;
+}
+
+
+
+
+.education .education-container {
+    max-width: 1440px;
+    display: flex;
+}
+
+.education .education-container .education-card{
+    margin: 2rem;
+    max-width: 600px;
+}
+
+.skills .skills-cards_container .skills-card{
+    max-width: 600px;
+    width: 48%;
+    margin: 1rem;
+}
+
+.skills-cards_container .skills-card:nth-child(2n) {
+    background-color: var(--grey);
+    
+}
+
+.contact .contact-container {
+    max-width: 1440px;
+    justify-content: center;
+}
+
+.contact .contact-container div {
+    width: 48%;
+    min-width: 320px;
+    max-width: 500px;
+    margin: 0.5rem;
+}
+
+.contact a {
+    font-size: 1.8rem;
 }

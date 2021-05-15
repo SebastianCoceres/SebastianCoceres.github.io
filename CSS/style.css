@@ -277,9 +277,10 @@ footer{
     padding: 2rem;
 }
 
-.education-container {
+.education{
     padding: 3rem;
 }
+
 
 .education-title {
     display: grid;
@@ -457,6 +458,7 @@ footer{
 }
 
 .experience .cards {
+    margin-top: 1rem;
     margin-bottom: 2rem;
     background-color: var(--background-color);
     border-radius: 1rem;
@@ -920,8 +922,19 @@ footer{
 footer {
     height: 10vh;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     background-color: var(--background-color);
     color: var(--white-text);
+}
+
+footer div{
+    width: 80%;
+    text-align: center;
+}
+
+footer div a{
+    color: var(--gold);
+    text-decoration: none;
 }
