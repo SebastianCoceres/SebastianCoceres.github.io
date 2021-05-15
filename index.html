@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sebastian Coceres CV</title>
     <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/large-celphone.css" media= "(min-width: 425px)">
+    <link rel="stylesheet" href="./CSS/tablet.css" media= "(min-width: 768px)">
+    <link rel="stylesheet" href="./CSS/big-laptop.css" media= "(min-width: 1500px)">
+    <!--Colocar mediaquery para celulares grandes-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
@@ -40,7 +44,7 @@
                 <span></span>
                 <h2>Sobre mí</h2>
             </div>
-            <div>
+            <div class="aboutMe-container">
                 Me apasiona la tecnología. Indago y estudio tanto Software como Hardware. Además, realizo trabajos
                 independientes de consultas y armados de PCs.
                 <br><br>
@@ -98,9 +102,11 @@
                             <p>(2020 - Actualidad)</p>
                         </div>
                         <p class="course-description">
-                            Escuela de desarrollo web en los que se abarcan temas de HTML5, CSS3, Javascript con sus distintas tecnologías en el Frontend y Backend.
-                            <br>
-                            Se enseña el funcionamiento del navegador y la web, las distintas herramientas que se utiliza en la materia, términos de accesibilidad, diseño responsive y web performance.
+                            Escuela de desarrollo web en los que se abarcan temas de HTML5, CSS3, Javascript con sus
+                            distintas tecnologías en el Frontend y Backend.
+                            <br><br>
+                            Se enseña el funcionamiento del navegador y la web, las distintas herramientas que se
+                            utiliza en la materia, términos de accesibilidad, diseño responsive y web performance.
                         </p>
                     </div>
                 </div>
@@ -117,28 +123,11 @@
                             <p>(2020 - Actualidad)</p>
                         </div>
                         <p class="course-description">
-                            Preparación para la certificación CompTIA A + impartida por Linkedin Learning y Microsoft para obtener habilidades para desempeñar el rol de soporte técnico.
+                            Preparación para la certificación CompTIA A + impartida por Linkedin Learning y Microsoft
+                            para obtener habilidades para desempeñar el rol de soporte técnico.
                             <br><br>
-                            Se enseña sobre resolución de problemas, deployment, hardware de computadoras y servidores, Active directory y Microsoft Windows Server 
-                        </p>
-                    </div>
-                </div>
-                <div class="skills-card Redes platzi">
-                    <div class="course-center-img">
-                        <div class="course-center_logo">
-                            <span></span>
-                        </div>
-                    </div>
-                    <div class="course">
-                        <p class="course-name">Redes informáticas de internet</p>
-                        <div class="course-center-info">
-                            <p>Plazi</p>
-                            <p>(Julio 2020)</p>
-                        </div>
-                        <p class="course-description">
-                            Curso de Redes informáticas online.
-                            Se explican los conceptos de Protocoles, Modelo TCP/IP, modelo OSI, capa fisica, capa de enlace de datos, capa de red, capa de transporte, capa de sesión , capa de presentación y capa de aplicación.<br>
-                            Se detalla el funcionamiento de direccionamiento MAC, clasificación de redes y uso de Wireshark para análisis.
+                            Se enseña sobre resolución de problemas, deployment, hardware de computadoras y servidores,
+                            Active directory y Microsoft Windows Server
                         </p>
                     </div>
                 </div>
@@ -155,11 +144,13 @@
                             <p>(Enero 2021)</p>
                         </div>
                         <p class="course-description">
-                            Curso del famoso sistema de control de versiones distribuido Git y GitHub, la plataforma de gestión y organización de proyectos basada en la nube.
+                            Curso del famoso sistema de control de versiones distribuido Git y GitHub, la plataforma de
+                            gestión y organización de proyectos basada en la nube.
                             <br><br>
                             Se explica el flujo de un proyecto llevandolo a cabo con Git y Github.
                             <br>
-                            Explicación de sus herramientas basicas de Git para poder trabajar en un equipo de desarrollo de manera eficiente y el uso de GitHub.
+                            Explicación de sus herramientas basicas de Git para poder trabajar en un equipo de
+                            desarrollo de manera eficiente y el uso de GitHub.
                         </p>
                     </div>
                 </div>
@@ -176,9 +167,12 @@
                             <p>(Diciembre 2020)</p>
                         </div>
                         <p class="course-description">
-                            Curso de Expresiones Regulares en entorno de programación, servidores e implementacion web, explicación y práctica para búsqueda de patrones de cadenas de caracteres u operaciones de sustituciones.
+                            Curso de Expresiones Regulares en entorno de programación, servidores e implementacion web,
+                            explicación y práctica para búsqueda de patrones de cadenas de caracteres u operaciones de
+                            sustituciones.
                             <br><br>
-                            Se detallan conceptos de alternación, cuantificación, agrupación, clausura de Kleene, concatenación y operadores.
+                            Se detallan conceptos de alternación, cuantificación, agrupación, clausura de Kleene,
+                            concatenación y operadores.
                         </p>
                     </div>
                 </div>
@@ -195,9 +189,15 @@
                             <p>(Diciembre 2020)</p>
                         </div>
                         <p class="course-description">
-                            Curso de bases de datos relacionales y no relacionales. 
-                            <br>
-                            Por medios de prácticas se desarrollan los conceptos básicos del manejo de bases de datos relaciones y no relacionales.
+                            Curso de bases de datos relacionales y no relacionales.
+                            <br><br>
+                            Por medios de prácticas se desarrollan los conceptos básicos del manejo de bases de
+                            datos.<br>
+                            Creación desde cero, planificacion, código y consultas.
+                            <br><br>
+                            Se explicaron conceptos de historia, tipos de bases de datos, entidades y atributos,
+                            relaciones, diagramas, normalización, RDBMS, clientes gráficos, servicios administrados y
+                            aplicaciones.
                         </p>
                     </div>
                 </div>
@@ -214,10 +214,35 @@
                             <p>(Octubre 2020)</p>
                         </div>
                         <p class="course-description">
-                            Explicación de conceptos básicos de marketing digital. Diferencias entre Inbound y Outbound marketing.<br>
-                            Se ven temas de definición de audiencia definida, buyer persona, marketing de contenidos, blogs, case studies, white papers, canales de distribucion y calendarios de contenidos.<br>
-                            <br>
+                            Explicación de conceptos básicos de marketing digital. Diferencias entre Inbound y Outbound
+                            marketing.
+                            <br><br>
+                            Se ven temas de definición de audiencia definida, buyer persona, marketing de contenidos,
+                            blogs, case studies, white papers, canales de distribucion y calendarios de contenidos.
+                            <br><br>
                             Además, se ven conceptos de Google Adwords, Facebooks Ads e e-mail marketing.
+                        </p>
+                    </div>
+                </div>
+                <div class="skills-card Redes platzi">
+                    <div class="course-center-img">
+                        <div class="course-center_logo">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="course">
+                        <p class="course-name">Redes informáticas de internet</p>
+                        <div class="course-center-info">
+                            <p>Plazi</p>
+                            <p>(Julio 2020)</p>
+                        </div>
+                        <p class="course-description">
+                            Curso de Redes informáticas online.<br><br>
+                            Se explican los conceptos de Protocolos, Modelo TCP/IP, modelo OSI, capa física, capa de
+                            enlace de datos, capa de red, capa de transporte, capa de sesión , capa de presentación y
+                            capa de aplicación.<br><br>
+                            Se detalla el funcionamiento de direccionamiento MAC, clasificación de redes y uso de
+                            Wireshark para análisis.
                         </p>
                     </div>
                 </div>
@@ -234,8 +259,27 @@
                             <p>(Marzo 2019)</p>
                         </div>
                         <p class="course-description">
-                            Curso Online del famoso ERP.
-                            Centrado en el ámbito logístico se explicaron desde conceptos básicos del funcionamiento a características avanzadas del sistema.
+                            Curso Online del famoso ERP.<br>
+                            Centrado en el ámbito logístico, el curso de SAP MM se explicaron desde conceptos básicos
+                            del funcionamiento del sistema hasta características avanzadas del mismo.
+                        </p>
+                    </div>
+                </div>
+                <div class="skills-card english institute">
+                    <div class="course-center-img">
+                        <div class="course-center_logo">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="course">
+                        <p class="course-name">Inglés</p>
+                        <div class="course-center-info">
+                            <p>Insituto Big Ben</p>
+                            <p>(2007 - 2013)</p>
+                        </div>
+                        <p class="course-description">
+                            Academia de inglés<br>
+                            Preparación para el certificado B2 del idioma.
                         </p>
                     </div>
                 </div>
@@ -290,8 +334,8 @@
                         <div class="card-head_title">
                             <h3>Delicias Alu</h3>
                             <p>(2020 - 2021)</p>
-                            <a href="https://www.instagram.com/deliciasalu/?hl=es"
-                                target="_blank">Delicias Alu <span class="open-link"></span></a>
+                            <a href="https://www.instagram.com/deliciasalu/?hl=es" target="_blank">Delicias Alu <span
+                                    class="open-link"></span></a>
                         </div>
                     </div>
                     <div class="card-job_title">
@@ -324,8 +368,8 @@
                         <div class="card-head_title">
                             <h3>MaQueBonaDona</h3>
                             <p>(2015 - 2017)</p>
-                            <a href="https://www.instagram.com/maquebonadona/?hl=es"
-                                target="_blank">Maquebonadona<span class="open-link"></span></a>
+                            <a href="https://www.instagram.com/maquebonadona/?hl=es" target="_blank">Maquebonadona<span
+                                    class="open-link"></span></a>
                         </div>
                     </div>
                     <div class="card-job_title">
@@ -360,7 +404,7 @@
                         </div>
                     </div>
                     <div class="card-job_title">
-                        Atencion al cliente - Ventas
+                        Atención al cliente - Ventas
                     </div>
                     <div class="card-job_description">
                         <p>
@@ -374,7 +418,7 @@
                         <ul>
                             <li>Atención al cliente</li>
                             <li>Cierre de Caja</li>
-                            <li>Manipulacion de Alimentos</li>
+                            <li>Manipulación de Alimentos</li>
                             <li>Contacto con proveedores</li>
                             <li>Reposición</li>
                         </ul>
@@ -396,8 +440,8 @@
                     <div class="card-job_description">
                         <p>
                             Asistencia mecánica ligera, reparación eléctrica de automóviles.
-                            Mantenimiento y reparación de automotores.
-                            Formaba parte de mi práctica profesionalizante de mi educación técnica.
+                            Mantenimiento y reparación de automotores.<br>
+                            Formaba parte de la práctica profesionalizante de mi educación técnica.
                         </p>
                         <br>
                         <p>
@@ -410,6 +454,114 @@
                             <li>Catálogo de procesos</li>
                             <li>Puesta a punto</li>
                         </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="section-division"></div>
+        <section class="computer-skill" id="computer-skill">
+            <div class="computer-skill-title">
+                <span></span>
+                <h2>Informática</h2>
+            </div>
+            <div class="computer-skills-container">
+                <div class="computer-skill-card html5">
+                    <div class="computer-skill-logo ">
+                        <span></span>
+                    </div>
+                    <div class="computer-skill-name">
+                        <h3>HTML5</h3>
+                    </div>
+                    <div class="track">
+                        <div class="percentage"></div>
+                    </div>
+                </div>
+                <div class="computer-skill-card css">
+                    <div class="computer-skill-logo ">
+                        <span></span>
+                    </div>
+                    <div class="computer-skill-name">
+                        <h3>CSS3</h3>
+                    </div>
+                    <div class="track">
+                        <div class="percentage"></div>
+                    </div>
+                </div>
+                <div class="computer-skill-card js">
+                    <div class="computer-skill-logo ">
+                        <span></span>
+                    </div>
+                    <div class="computer-skill-name">
+                        <h3>Javascript</h3>
+                    </div>
+                    <div class="track">
+                        <div class="percentage"></div>
+                    </div>
+                </div>
+                <div class="computer-skill-card git">
+                    <div class="computer-skill-logo ">
+                        <span></span>
+                    </div>
+                    <div class="computer-skill-name">
+                        <h3>Git & Github</h3>
+                    </div>
+                    <div class="track">
+                        <div class="percentage"></div>
+                    </div>
+                </div>
+                <div class="computer-skill-card ubuntu">
+                    <div class="computer-skill-logo ">
+                        <span></span>
+                    </div>
+                    <div class="computer-skill-name">
+                        <h3>Ubuntu</h3>
+                    </div>
+                    <div class="track">
+                        <div class="percentage"></div>
+                    </div>
+                </div>
+                <div class="computer-skill-card DB-skill">
+                    <div class="computer-skill-logo ">
+                        <span></span>
+                    </div>
+                    <div class="computer-skill-name">
+                        <h3>Bases de Datos</h3>
+                    </div>
+                    <div class="track">
+                        <div class="percentage"></div>
+                    </div>
+                </div>
+                <div class="computer-skill-card Excel">
+                    <div class="computer-skill-logo ">
+                        <span></span>
+                    </div>
+                    <div class="computer-skill-name">
+                        <h3>Excel</h3>
+                    </div>
+                    <div class="track">
+                        <div class="percentage"></div>
+                    </div>
+                </div>
+                <div class="computer-skill-card Word">
+                    <div class="computer-skill-logo ">
+                        <span></span>
+                    </div>
+                    <div class="computer-skill-name">
+                        <h3>Word</h3>
+                    </div>
+                    <div class="track">
+                        <div class="percentage"></div>
+                    </div>
+                </div>
+                <div class="computer-skill-card ppt">
+                    <div class="computer-skill-logo ">
+                        <span></span>
+                    </div>
+                    <div class="computer-skill-name">
+                        <h3>Powerpoint</h3>
+                    </div>
+                    <div class="track">
+                        <div class="percentage"></div>
                     </div>
                 </div>
             </div>
@@ -432,14 +584,39 @@
             </div>
         </section>
         <div class="section-division"></div>
+        <section class="reference">
+            <div class="reference-title">
+                <span></span>
+                <h2>Referencias</h2>
+            </div>
+            <div class="reference-contacts">
+                <div>
+                    <p class="reference-name">Matias Ramos</p>
+                    <p class="reference-relationship">(Coordinador)</p>
+                    <p class="reference-work">Latin American Communication SA</p>
+                    <p><a href="tel:+5491164431210" target="_blank">+54 9 11 6443-1210</a></p>
+                </div>
+                <div>
+                    <p class="reference-name">Maria Eugenia Jasi</p>
+                    <p class="reference-releationship">(Dueña)</p>
+                    <p class="reference-work">Rincon de Maru</p>
+                    <p><a href="tel:+5491161433805" target="_blank">+54 9 11 6143-3805</a></p>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
         <div>
             Code by Sebastian Coceres
         </div>
     </footer>
-
     <script src="scripts/hamb-menu.js"></script>
+    <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
+    <script type="text/javascript">
+        ScrollOut({
+            targets: ".percentage"
+        });
+    </script>
 </body>
 
 </html>

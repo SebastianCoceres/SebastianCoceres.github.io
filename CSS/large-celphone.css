@@ -1,0 +1,19 @@
+.experience .card-head .card-head_title{
+    font-size: 1.4rem;
+}
+.experience .card-head .card-head_title h3{
+    font-size: 2rem;
+}
+
+.experience .experience-title,
+.skills .skills-title,
+.education .education-title,
+.aboutMe .aboutMe-title,
+.computer-skill .computer-skill-title,
+.contact .contact-title,
+.reference .reference-title {
+    min-width: 320px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+

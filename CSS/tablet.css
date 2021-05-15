@@ -1,0 +1,108 @@
+html{
+    font-size: 80%;
+
+}
+
+.landing-face .face-photo {
+    width: 20rem;
+    height: 20rem;
+    margin-top: 5rem;
+}
+
+.landing-knowme{
+    margin-top: 2rem;
+}
+
+.experience .experience-title h2,
+.skills .skills-title h2,
+.education .education-title h2,
+.aboutMe .aboutMe-title h2,
+.computer-skill .computer-skill-title h2,
+.contact .contact-title h2,
+.reference .reference-title h2{
+    justify-self: center;
+}
+
+
+.aboutMe{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutMe-container{
+    max-width: 800px;
+}
+
+.education {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.education .education-container {
+    
+    max-width: 800px;
+}
+
+.skills .skills-cards_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skills .skills-cards_container .skills-card{
+    width: 100%;
+    max-width: 800px;
+    min-width: 600px;
+}
+
+.experience .experience-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.experience .cards{
+    width: 48%;
+    max-width: 650px;
+    margin: 0.5rem;
+}
+
+.experience .card-head .card-head_title{
+    font-size: 1.2rem;
+}
+.experience .card-head .card-head_title h3{
+    font-size: 1.6rem;
+}
+
+.computer-skills-container{
+    max-width: 800px;
+}
+
+.contact .contact-container {
+    max-width: 800px;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact .contact-container div{
+    min-width: 320px;
+    max-width: 48%;
+    margin: 0.5rem;
+}
+
+.contact a{
+    margin-left: 2rem;
+}
+
+
+.reference .reference-contacts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
