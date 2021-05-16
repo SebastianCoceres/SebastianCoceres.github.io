@@ -187,8 +187,7 @@ footer{
     width: 25rem;
     height: 25rem;
     border-radius: 50%;
-    margin: 0 auto;
-    margin-top: 10rem;
+    margin-top: 6rem;
     margin-bottom: 3rem;
     border: 1px solid rgba(0, 0, 0, 0.5);
     box-shadow: 2px 5px 20px 5px rgba(0, 0, 0, 0.5);
@@ -309,6 +308,10 @@ footer{
     margin-left: 2rem;
 }
 
+.education .education-card{
+    margin-top: 1rem;
+}
+
 .education .education-college {
     background-color: var(--grey);
     padding: 2rem;
@@ -339,6 +342,11 @@ footer{
     padding: 2rem;
     font-size: 1.4rem;
     font-weight: 500;
+    border-bottom: 1px solid var(--grey);
+    border-right: 1px solid var(--grey);
+    border-left: 1px solid var(--grey);
+    border-radius: 0 0 1rem 1rem;
+
 }
 
 .skills {

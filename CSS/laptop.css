@@ -21,6 +21,7 @@ header .main-nav{
 .main-nav #nav-items li{
     border-bottom: 0px;
     margin: 0 1rem;
+    padding: 1rem;
 }
 
 
