@@ -16,6 +16,10 @@ header{
     font-size: 2rem;
 }
 
+.main-nav #nav-items li:active {
+    font-size: 2rem;
+}
+
 .experience .experience-title,
 .skills .skills-title,
 .education .education-title,

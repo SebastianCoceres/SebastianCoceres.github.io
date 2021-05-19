@@ -58,6 +58,7 @@ header {
     font-size: 1.8rem;
     position: fixed;
     border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    z-index: 100;
 }
 
 
@@ -358,6 +359,7 @@ footer{
     align-items: center;
     padding: 3rem;
     flex-direction: column;
+    position: relative;
 }
 
 .skills .skills-title {
@@ -368,6 +370,7 @@ footer{
     padding: 1rem;
     margin-bottom: 2rem;
     width: 100%;
+    position: relative;
 }
 
 .skills-title h2 {
@@ -388,8 +391,36 @@ footer{
     background-repeat: no-repeat;
 }
 
+.skills-flecha{
+    width: 1rem;
+    height: 1rem;
+    position: absolute;
+    top: calc(50% - 0.5rem)
+}
+
+.skills-flecha.flecha-izquierda{
+    background-image: url("../Assets/Icons/svg/keyboard-left-arrow-button.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: 1rem;
+}
+
+.skills-flecha.flecha-derecha{
+    background-image: url("../Assets/Icons/svg/keyboard-right-arrow-button.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    right: 1rem;
+}
+
 .skills-cards_container {
     width: 100%;
+    display: flex;
+    gap: 1rem;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
 }
 
 .skills-cards_container .skills-card {
@@ -400,6 +431,8 @@ footer{
     border: 1px solid rgba(200, 150, 0, 0.2);
     border-radius: 1rem;
     margin: 1rem 0;
+    min-width: 260px;
+    scroll-snap-align: center;
 }
 
 .skills-cards_container .skills-card:nth-child(2n-1) {
@@ -772,6 +805,7 @@ footer{
     align-items: center;
     padding: 1rem;
     margin-bottom: 2rem;
+    width: 100%;
 }
 
 .languages-title span {
@@ -851,6 +885,7 @@ footer{
     width: 30%;
     height: 100%;
     border: 1px solid;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); 
 }
 
 .english .reading div:nth-child(2) div{

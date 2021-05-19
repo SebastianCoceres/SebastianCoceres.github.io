@@ -18,3 +18,6 @@
     margin: 0 auto;
 }
 
+.skills-cards_container .skills-card{
+    min-width: 320px;
+}
