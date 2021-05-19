@@ -39,6 +39,18 @@
     
 }
 
+.languages .languages-card_title h3{
+    font-size: 2.4rem;
+}
+
+.languages .languages-card_title p{
+    font-size: 1.6rem;
+}
+
+.languages .languages-card_description{
+    font-size: 1.8rem;
+}
+
 .contact .contact-container {
     max-width: 900px;
     justify-content: space-around;
