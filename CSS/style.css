@@ -57,7 +57,7 @@ header {
     background: var(--grey);
     font-size: 1.8rem;
     position: fixed;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid rgba(200, 150, 0, 0.5);
     z-index: 100;
 }
 
@@ -94,16 +94,18 @@ header {
 
 #toggle.active::before {
     transform: translateY(0) rotate(45deg);
+    background-color:#C74D69;
 }
 
 #toggle.active::after {
     transform: translateY(0) rotate(-45deg);
+    background-color: #C74D69;
 }
 
 .main-nav{
     width: 100%;
     position: absolute;
-    top: 5.9rem;
+    top: 5.8rem;
 }
 
 .main-nav #nav-items {
@@ -130,7 +132,7 @@ header {
 }
 
 .main-nav #nav-items li {
-    padding: 0.5rem;
+    padding: 2rem;
     background-color: var(--grey);
     border-bottom: 2px solid var(--gold);
 }
