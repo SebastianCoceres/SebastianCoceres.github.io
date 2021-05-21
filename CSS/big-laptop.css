@@ -1,5 +1,5 @@
 html{
-    font-size: 80%;
+    font-size: 75%;
 
 }
 
@@ -18,6 +18,10 @@ header{
 
 .main-nav #nav-items li:active {
     font-size: 2rem;
+}
+
+.main-nav #nav-items li a{
+    font-size: 1.6rem;
 }
 
 .experience .experience-title,

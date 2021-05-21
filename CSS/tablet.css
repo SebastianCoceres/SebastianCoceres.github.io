@@ -52,8 +52,6 @@
 }
 
 .skills .skills-cards_container .skills-card {
-    width: 100%;
-    max-width: 800px;
     min-width: 500px;
 }
 

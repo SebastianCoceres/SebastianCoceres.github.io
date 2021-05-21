@@ -28,9 +28,8 @@
 }
 
 .skills .skills-cards_container .skills-card{
-    max-width: 600px;
-    width: 48%;
     margin: 1rem;
+    min-width: 900px;
     min-height: 400px;
 }
 

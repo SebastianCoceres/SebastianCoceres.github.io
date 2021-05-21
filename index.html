@@ -5,13 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sebastian Coceres CV</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="./CSS/style.css">
     <link rel="stylesheet" href="./CSS/large-celphone.css" media="(min-width: 425px)">
     <link rel="stylesheet" href="./CSS/tablet.css" media="(min-width: 768px)">
     <link rel="stylesheet" href="./CSS/laptop.css" media="(min-width: 1024px)">
     <link rel="stylesheet" href="./CSS/laptop-2K.css" media="(min-width: 1440px)">
     <link rel="stylesheet" href="./CSS/big-laptop.css" media="(min-width: 1675px)">
-    <!--Colocar mediaquery para celulares grandes-->
+    
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
@@ -19,7 +23,7 @@
 <body>
     <header>
         <div id="toggle"></div>
-        <div class="main-nav">          
+        <div class="main-nav">
             <nav id="nav-items">
                 <ul>
                     <li><a href="#">Portfolio</a></li>
@@ -76,33 +80,37 @@
             <div class="education-container">
                 <div class="education-card">
                     <div class="education-college">
-                    <h3><a href="https://cutt.ly/fbDTfO7">Instituto Dr. Juan Segundo Fernandez</a></h3>
-                    <p>FP Grado Medio - Técnico Electromecánico</p>
-                    <p>(2007 - 2014)</p>
+                        <h3><a href="https://cutt.ly/fbDTfO7">Instituto Dr. Juan Segundo Fernandez</a></h3>
+                        <p>FP Grado Medio - Técnico Electromecánico</p>
+                        <p>(2007 - 2014)</p>
                     </div>
                     <p class="education-description">
                         Educación especializada en electromecánica.<br>
                         Escuela técnica ubicada en San Isidro, Buenos Aires, Argentina.<br>
                         <br>
-                        Mi formación me permitió obtener conocimientos de electricidad, electrónica, mecánica, robótica y
+                        Mi formación me permitió obtener conocimientos de electricidad, electrónica, mecánica, robótica
+                        y
                         programación.
-                        Realicé mis prácticas profesionales desempeñandome como auxiliar mecánico en un taller mecánico de
+                        Realicé mis prácticas profesionales desempeñandome como auxiliar mecánico en un taller mecánico
+                        de
                         Olivos, Buenos Aires
                     </p>
                 </div>
                 <div class="education-card">
-                <div class="education-college">
-                    <h3><a href="https://untref.edu.ar/carrera/ingenieria-de-sonido">Universidad Nacional de Tres de Febrero</a></h3>
-                    <p>Carrera de Grado - Ingeniería de Sonido</p>
-                    <p>
-                        (2015 - 2017)
+                    <div class="education-college">
+                        <h3><a href="https://untref.edu.ar/carrera/ingenieria-de-sonido">Universidad Nacional de Tres de
+                                Febrero</a></h3>
+                        <p>Carrera de Grado - Ingeniería de Sonido</p>
+                        <p>
+                            (2015 - 2017)
+                        </p>
+                    </div>
+                    <p class="education-description">
+                        Carrera universitaria especializada en ondas electromagnéticas.<br><br>
+                        Estudio del fenómeno sonoro en particular, y las ondas mecánicas en general, incluyendo su
+                        producción, transporte y recepción, y los estímulos, sean estos audibles o no.<br><br>
+                        Tiene tres ramas: Ciencias de la Grabación, Electrónica de Audio y Acústica y Electroacústica
                     </p>
-                </div>
-                <p class="education-description">
-                    Carrera universitaria especializada en ondas electromagnéticas.<br><br>
-                    Estudio del fenómeno sonoro en particular, y las ondas mecánicas en general, incluyendo su producción, transporte y recepción, y los estímulos, sean estos audibles o no.<br><br>
-                    Tiene tres ramas: Ciencias de la Grabación, Electrónica de Audio y Acústica y Electroacústica
-                </p>
                 </div>
             </div>
         </section>
@@ -112,206 +120,260 @@
                 <h2>Capacitaciones</h2>
             </div>
             <div class="skills-flecha flecha-izquierda">
-                
+
             </div>
             <div class="skills-flecha flecha-derecha">
 
             </div>
             <div class="skills-cards_container">
-                <div class="skills-card DW platzi">
-                    <div class="course-center-img">
-                        <div class="course-center_logo">
-                            <span></span>
+                <div class="swiper-container mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="skills-card DW platzi">
+                                <div class="course-center-img">
+                                    <div class="course-center_logo">
+                                        <span></span>
+                                    </div>
+                                </div>
+                                <div class="course">
+                                    <p class="course-name">Desarrollo Web</p>
+                                    <div class="course-center-info">
+                                        <p>Platzi</p>
+                                        <p>(2020 - Actualidad)</p>
+                                    </div>
+                                    <p class="course-description">
+                                        Escuela de desarrollo web en los que se abarcan temas de HTML5, CSS3, Javascript
+                                        con
+                                        sus
+                                        distintas tecnologías en el Frontend y Backend.
+                                        <br><br>
+                                        Se enseña el funcionamiento del navegador y la web, las distintas herramientas
+                                        que
+                                        se
+                                        utiliza en la materia, términos de accesibilidad, diseño responsive y web
+                                        performance.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="skills-card IT-Support Linkedin">
+                                <div class="course-center-img">
+                                    <div class="course-center_logo">
+                                        <span></span>
+                                    </div>
+                                </div>
+                                <div class="course">
+                                    <p class="course-name">IT support/help desk</p>
+                                    <div class="course-center-info">
+                                        <p>Linkedin Learning</p>
+                                        <p>(2020 - Actualidad)</p>
+                                    </div>
+                                    <p class="course-description">
+                                        Preparación para la certificación CompTIA A + impartida por Linkedin Learning y
+                                        Microsoft
+                                        para obtener habilidades para desempeñar el rol de soporte técnico.
+                                        <br><br>
+                                        Se enseña sobre resolución de problemas, deployment, hardware de computadoras y
+                                        servidores,
+                                        Active directory y Microsoft Windows Server
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="skills-card Git platzi">
+                                <div class="course-center-img">
+                                    <div class="course-center_logo">
+                                        <span></span>
+                                    </div>
+                                </div>
+                                <div class="course">
+                                    <p class="course-name">Curso profesional de Git y Github</p>
+                                    <div class="course-center-info">
+                                        <p>Platzi</p>
+                                        <p>(Enero 2021)</p>
+                                    </div>
+                                    <p class="course-description">
+                                        Curso del famoso sistema de control de versiones distribuido Git y GitHub, la
+                                        plataforma de
+                                        gestión y organización de proyectos basada en la nube.
+                                        <br><br>
+                                        Se explica el flujo de un proyecto llevandolo a cabo con Git y Github.
+                                        <br>
+                                        Explicación de sus herramientas basicas de Git para poder trabajar en un equipo
+                                        de
+                                        desarrollo de manera eficiente y el uso de GitHub.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="skills-card Regex platzi">
+                                <div class="course-center-img">
+                                    <div class="course-center_logo">
+                                        <span></span>
+                                    </div>
+                                </div>
+                                <div class="course">
+                                    <p class="course-name">Curso Expresiones Regulares</p>
+                                    <div class="course-center-info">
+                                        <p>Platzi</p>
+                                        <p>(Diciembre 2020)</p>
+                                    </div>
+                                    <p class="course-description">
+                                        Curso de Expresiones Regulares en entorno de programación, servidores e
+                                        implementacion web,
+                                        explicación y práctica para búsqueda de patrones de cadenas de caracteres u
+                                        operaciones de
+                                        sustituciones.
+                                        <br><br>
+                                        Se detallan conceptos de alternación, cuantificación, agrupación, clausura de
+                                        Kleene,
+                                        concatenación y operadores.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="skills-card DB platzi">
+                                <div class="course-center-img">
+                                    <div class="course-center_logo">
+                                        <span></span>
+                                    </div>
+                                </div>
+                                <div class="course">
+                                    <p class="course-name">Fundamentos de Bases de Datos</p>
+                                    <div class="course-center-info">
+                                        <p>Platzi</p>
+                                        <p>(Diciembre 2020)</p>
+                                    </div>
+                                    <p class="course-description">
+                                        Curso de bases de datos relacionales y no relacionales.
+                                        <br><br>
+                                        Por medios de prácticas se desarrollan los conceptos básicos del manejo de bases
+                                        de
+                                        datos.<br>
+                                        Creación desde cero, planificacion, código y consultas.
+                                        <br><br>
+                                        Se explicaron conceptos de historia, tipos de bases de datos, entidades y
+                                        atributos,
+                                        relaciones, diagramas, normalización, RDBMS, clientes gráficos, servicios
+                                        administrados y
+                                        aplicaciones.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="skills-card Marketing platzi">
+                                <div class="course-center-img">
+                                    <div class="course-center_logo">
+                                        <span></span>
+                                    </div>
+                                </div>
+                                <div class="course">
+                                    <p class="course-name">Introduccion al Marketing Digital</p>
+                                    <div class="course-center-info">
+                                        <p>Platzi</p>
+                                        <p>(Octubre 2020)</p>
+                                    </div>
+                                    <p class="course-description">
+                                        Explicación de conceptos básicos de marketing digital. Diferencias entre Inbound
+                                        y
+                                        Outbound
+                                        marketing.
+                                        <br><br>
+                                        Se ven temas de definición de audiencia definida, buyer persona, marketing de
+                                        contenidos,
+                                        blogs, case studies, white papers, canales de distribucion y calendarios de
+                                        contenidos.
+                                        <br><br>
+                                        Además, se ven conceptos de Google Adwords, Facebooks Ads e e-mail marketing.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="skills-card Redes platzi">
+                                <div class="course-center-img">
+                                    <div class="course-center_logo">
+                                        <span></span>
+                                    </div>
+                                </div>
+                                <div class="course">
+                                    <p class="course-name">Redes informáticas de internet</p>
+                                    <div class="course-center-info">
+                                        <p>Platzi</p>
+                                        <p>(Julio 2020)</p>
+                                    </div>
+                                    <p class="course-description">
+                                        Curso de Redes informáticas online.<br><br>
+                                        Se explican los conceptos de Protocolos, Modelo TCP/IP, modelo OSI, capa física,
+                                        capa de
+                                        enlace de datos, capa de red, capa de transporte, capa de sesión , capa de
+                                        presentación y
+                                        capa de aplicación.<br><br>
+                                        Se detalla el funcionamiento de direccionamiento MAC, clasificación de redes y
+                                        uso de
+                                        Wireshark para análisis.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="skills-card SAP Axigma">
+                                <div class="course-center-img">
+                                    <div class="course-center_logo">
+                                        <span></span>
+                                    </div>
+                                </div>
+                                <div class="course">
+                                    <p class="course-name">SAP Material Managment</p>
+                                    <div class="course-center-info">
+                                        <p>Axigma</p>
+                                        <p>(Marzo 2019)</p>
+                                    </div>
+                                    <p class="course-description">
+                                        Curso Online del famoso ERP.<br>
+                                        Centrado en el ámbito logístico, el curso de SAP MM se explicaron desde
+                                        conceptos básicos
+                                        del funcionamiento del sistema hasta características avanzadas del mismo.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="skills-card english institute">
+                                <div class="course-center-img">
+                                    <div class="course-center_logo">
+                                        <span></span>
+                                    </div>
+                                </div>
+                                <div class="course">
+                                    <p class="course-name">Inglés</p>
+                                    <div class="course-center-info">
+                                        <p>Insituto Big Ben</p>
+                                        <p>(2007 - 2013)</p>
+                                    </div>
+                                    <p class="course-description">
+                                        Academia de inglés<br>
+                                        Preparación para el certificado B2 del idioma.
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="course">
-                        <p class="course-name">Desarrollo Web</p>
-                        <div class="course-center-info">
-                            <p>Platzi</p>
-                            <p>(2020 - Actualidad)</p>
-                        </div>
-                        <p class="course-description">
-                            Escuela de desarrollo web en los que se abarcan temas de HTML5, CSS3, Javascript con sus
-                            distintas tecnologías en el Frontend y Backend.
-                            <br><br>
-                            Se enseña el funcionamiento del navegador y la web, las distintas herramientas que se
-                            utiliza en la materia, términos de accesibilidad, diseño responsive y web performance.
-                        </p>
-                    </div>
+                    <div class="swiper-pagination"></div>
                 </div>
-                <div class="skills-card IT-Support Linkedin">
-                    <div class="course-center-img">
-                        <div class="course-center_logo">
-                            <span></span>
-                        </div>
-                    </div>
-                    <div class="course">
-                        <p class="course-name">IT support/help desk</p>
-                        <div class="course-center-info">
-                            <p>Linkedin Learning</p>
-                            <p>(2020 - Actualidad)</p>
-                        </div>
-                        <p class="course-description">
-                            Preparación para la certificación CompTIA A + impartida por Linkedin Learning y Microsoft
-                            para obtener habilidades para desempeñar el rol de soporte técnico.
-                            <br><br>
-                            Se enseña sobre resolución de problemas, deployment, hardware de computadoras y servidores,
-                            Active directory y Microsoft Windows Server
-                        </p>
-                    </div>
-                </div>
-                <div class="skills-card Git platzi">
-                    <div class="course-center-img">
-                        <div class="course-center_logo">
-                            <span></span>
-                        </div>
-                    </div>
-                    <div class="course">
-                        <p class="course-name">Curso profesional de Git y Github</p>
-                        <div class="course-center-info">
-                            <p>Platzi</p>
-                            <p>(Enero 2021)</p>
-                        </div>
-                        <p class="course-description">
-                            Curso del famoso sistema de control de versiones distribuido Git y GitHub, la plataforma de
-                            gestión y organización de proyectos basada en la nube.
-                            <br><br>
-                            Se explica el flujo de un proyecto llevandolo a cabo con Git y Github.
-                            <br>
-                            Explicación de sus herramientas basicas de Git para poder trabajar en un equipo de
-                            desarrollo de manera eficiente y el uso de GitHub.
-                        </p>
-                    </div>
-                </div>
-                <div class="skills-card Regex platzi">
-                    <div class="course-center-img">
-                        <div class="course-center_logo">
-                            <span></span>
-                        </div>
-                    </div>
-                    <div class="course">
-                        <p class="course-name">Curso Expresiones Regulares</p>
-                        <div class="course-center-info">
-                            <p>Platzi</p>
-                            <p>(Diciembre 2020)</p>
-                        </div>
-                        <p class="course-description">
-                            Curso de Expresiones Regulares en entorno de programación, servidores e implementacion web,
-                            explicación y práctica para búsqueda de patrones de cadenas de caracteres u operaciones de
-                            sustituciones.
-                            <br><br>
-                            Se detallan conceptos de alternación, cuantificación, agrupación, clausura de Kleene,
-                            concatenación y operadores.
-                        </p>
-                    </div>
-                </div>
-                <div class="skills-card DB platzi">
-                    <div class="course-center-img">
-                        <div class="course-center_logo">
-                            <span></span>
-                        </div>
-                    </div>
-                    <div class="course">
-                        <p class="course-name">Fundamentos de Bases de Datos</p>
-                        <div class="course-center-info">
-                            <p>Platzi</p>
-                            <p>(Diciembre 2020)</p>
-                        </div>
-                        <p class="course-description">
-                            Curso de bases de datos relacionales y no relacionales.
-                            <br><br>
-                            Por medios de prácticas se desarrollan los conceptos básicos del manejo de bases de
-                            datos.<br>
-                            Creación desde cero, planificacion, código y consultas.
-                            <br><br>
-                            Se explicaron conceptos de historia, tipos de bases de datos, entidades y atributos,
-                            relaciones, diagramas, normalización, RDBMS, clientes gráficos, servicios administrados y
-                            aplicaciones.
-                        </p>
-                    </div>
-                </div>
-                <div class="skills-card Marketing platzi">
-                    <div class="course-center-img">
-                        <div class="course-center_logo">
-                            <span></span>
-                        </div>
-                    </div>
-                    <div class="course">
-                        <p class="course-name">Introduccion al Marketing Digital</p>
-                        <div class="course-center-info">
-                            <p>Platzi</p>
-                            <p>(Octubre 2020)</p>
-                        </div>
-                        <p class="course-description">
-                            Explicación de conceptos básicos de marketing digital. Diferencias entre Inbound y Outbound
-                            marketing.
-                            <br><br>
-                            Se ven temas de definición de audiencia definida, buyer persona, marketing de contenidos,
-                            blogs, case studies, white papers, canales de distribucion y calendarios de contenidos.
-                            <br><br>
-                            Además, se ven conceptos de Google Adwords, Facebooks Ads e e-mail marketing.
-                        </p>
-                    </div>
-                </div>
-                <div class="skills-card Redes platzi">
-                    <div class="course-center-img">
-                        <div class="course-center_logo">
-                            <span></span>
-                        </div>
-                    </div>
-                    <div class="course">
-                        <p class="course-name">Redes informáticas de internet</p>
-                        <div class="course-center-info">
-                            <p>Platzi</p>
-                            <p>(Julio 2020)</p>
-                        </div>
-                        <p class="course-description">
-                            Curso de Redes informáticas online.<br><br>
-                            Se explican los conceptos de Protocolos, Modelo TCP/IP, modelo OSI, capa física, capa de
-                            enlace de datos, capa de red, capa de transporte, capa de sesión , capa de presentación y
-                            capa de aplicación.<br><br>
-                            Se detalla el funcionamiento de direccionamiento MAC, clasificación de redes y uso de
-                            Wireshark para análisis.
-                        </p>
-                    </div>
-                </div>
-                <div class="skills-card SAP Axigma">
-                    <div class="course-center-img">
-                        <div class="course-center_logo">
-                            <span></span>
-                        </div>
-                    </div>
-                    <div class="course">
-                        <p class="course-name">SAP Material Managment</p>
-                        <div class="course-center-info">
-                            <p>Axigma</p>
-                            <p>(Marzo 2019)</p>
-                        </div>
-                        <p class="course-description">
-                            Curso Online del famoso ERP.<br>
-                            Centrado en el ámbito logístico, el curso de SAP MM se explicaron desde conceptos básicos
-                            del funcionamiento del sistema hasta características avanzadas del mismo.
-                        </p>
-                    </div>
-                </div>
-                <div class="skills-card english institute">
-                    <div class="course-center-img">
-                        <div class="course-center_logo">
-                            <span></span>
-                        </div>
-                    </div>
-                    <div class="course">
-                        <p class="course-name">Inglés</p>
-                        <div class="course-center-info">
-                            <p>Insituto Big Ben</p>
-                            <p>(2007 - 2013)</p>
-                        </div>
-                        <p class="course-description">
-                            Academia de inglés<br>
-                            Preparación para el certificado B2 del idioma.
-                        </p>
-                    </div>
-                </div>
+
+
+
+
+
+
+
+
             </div>
         </section>
         <section id="experience" class="experience">
@@ -328,7 +390,8 @@
                         <div class="card-head_title">
                             <h3>Latin American Communication SA</h3>
                             <p>(2017 - 2021)</p>
-                            <a href="http://www.latcom.com" target="_blank" rel="noreferrer">Latcom<span class="open-link"></span></a>
+                            <a href="http://www.latcom.com" target="_blank" rel="noreferrer">Latcom<span
+                                    class="open-link"></span></a>
                         </div>
                     </div>
                     <div class="card-job_title">
@@ -362,8 +425,8 @@
                         <div class="card-head_title">
                             <h3>Delicias Alu</h3>
                             <p>(2020 - 2021)</p>
-                            <a href="https://www.instagram.com/deliciasalu/?hl=es" target="_blank" rel="noreferrer">Delicias Alu <span
-                                    class="open-link"></span></a>
+                            <a href="https://www.instagram.com/deliciasalu/?hl=es" target="_blank"
+                                rel="noreferrer">Delicias Alu <span class="open-link"></span></a>
                         </div>
                     </div>
                     <div class="card-job_title">
@@ -397,8 +460,8 @@
                         <div class="card-head_title">
                             <h3>MaQueBonaDona</h3>
                             <p>(2015 - 2017)</p>
-                            <a href="https://www.instagram.com/maquebonadona/?hl=es" target="_blank" rel="noreferrer">Maquebonadona<span
-                                    class="open-link"></span></a>
+                            <a href="https://www.instagram.com/maquebonadona/?hl=es" target="_blank"
+                                rel="noreferrer">Maquebonadona<span class="open-link"></span></a>
                         </div>
                     </div>
                     <div class="card-job_title">
@@ -407,7 +470,8 @@
                     <div class="card-job_description">
                         <p>
                             Emprendimiento familiar.
-                            Servicio de Catering y Eventos. Atención al público, organización de eventos, limpieza, manipulación de alimentos.
+                            Servicio de Catering y Eventos. Atención al público, organización de eventos, limpieza,
+                            manipulación de alimentos.
                         </p>
                         <br>
                         <p>
@@ -603,68 +667,68 @@
                     <div class="languages-card_title">
                         <h3>Inglés</h3>
                         <p>Nivel: B2</p>
-                    </div> 
+                    </div>
                     <ul class="languages-card_description">
                         <li class="reading">
                             <div>Lectura:</div>
                             <div>
-                                <div></div>
-                                <div></div>
-                                <div></div>
-                            </div>     
+                                <div class="level"></div>
+                                <div class="level"></div>
+                                <div class="level"></div>
+                            </div>
                         </li>
                         <li class="writing">
                             <div>Escritura:</div>
                             <div>
-                                <div></div>
-                                <div></div>
-                                <div></div>
-                            </div>     
+                                <div class="level"></div>
+                                <div class="level"></div>
+                                <div class="level"></div>
+                            </div>
                         </li>
                         <li class="speaking">
                             <div>Hablado:</div>
                             <div>
-                                <div></div>
-                                <div></div>
-                                <div></div>
-                            </div>     
+                                <div class="level"></div>
+                                <div class="level"></div>
+                                <div class="level"></div>
+                            </div>
                         </li>
                     </ul>
                 </div>
-                
+
                 <div class="languages-card italian">
                     <div class="languages-card_title">
                         <h3>Italiano</h3>
                         <p>Nivel: A2</p>
-                    </div> 
+                    </div>
                     <ul class="languages-card_description">
                         <li class="reading">
                             <div>Lectura:</div>
                             <div>
-                                <div></div>
-                                <div></div>
-                                <div></div>
-                            </div>     
+                                <div class="level"></div>
+                                <div class="level"></div>
+                                <div class="level"></div>
+                            </div>
                         </li>
                         <li class="writing">
                             <div>Escritura:</div>
                             <div>
-                                <div></div>
-                                <div></div>
-                                <div></div>
-                            </div>     
+                                <div class="level"></div>
+                                <div class="level"></div>
+                                <div class="level"></div>
+                            </div>
                         </li>
                         <li class="speaking">
                             <div>Hablado:</div>
                             <div>
-                                <div></div>
-                                <div></div>
-                                <div></div>
-                            </div>     
+                                <div class="level"></div>
+                                <div class="level"></div>
+                                <div class="level"></div>
+                            </div>
                         </li>
                     </ul>
                 </div>
-                
+
             </div>
         </section>
         <div>
@@ -674,14 +738,18 @@
                     <h2>Contacto</h2>
                 </div>
                 <div class="contact-container">
-                    <div><span></span><a href="tel:+34629915707" target="_blank" rel="noreferrer"> +34 629 91 57 07</a></div>
-                    <div><span></span><a href="https://cutt.ly/vbOU3s8" target="_blank" rel="noreferrer"> 50002, Zaragoza</a></div>
-                    <div><span></span><a href="mailto:sebastian.coceres11@gmail.com"
-                            target="_blank" rel="noreferrer">sebastian.coceres11@gmail.com</a></div>
+                    <div><span></span><a href="tel:+34629915707" target="_blank" rel="noreferrer"> +34 629 91 57 07</a>
+                    </div>
+                    <div><span></span><a href="https://cutt.ly/vbOU3s8" target="_blank" rel="noreferrer"> 50002,
+                            Zaragoza</a></div>
+                    <div><span></span><a href="mailto:sebastian.coceres11@gmail.com" target="_blank"
+                            rel="noreferrer">sebastian.coceres11@gmail.com</a></div>
                     <div><span></span><a href="https://www.linkedin.com/in/sebastian-ariel-coceres-5970b7175/"
                             target="_blank" rel="noreferrer"> Mi Linkedin</a></div>
-                    <div><span></span><a href="https://twitter.com/SebassCoceres" target="_blank" rel="noreferrer"> Mi Twitter</a></div>
-                    <div><span></span><a href="https://github.com/SebastianCoceres" target="_blank" rel="noreferrer"> Mi Github</a></div>
+                    <div><span></span><a href="https://twitter.com/SebassCoceres" target="_blank" rel="noreferrer"> Mi
+                            Twitter</a></div>
+                    <div><span></span><a href="https://github.com/SebastianCoceres" target="_blank" rel="noreferrer"> Mi
+                            Github</a></div>
                 </div>
             </section>
             <section id="references" class="reference">
@@ -711,7 +779,7 @@
                 </div>
             </section>
         </div>
-        
+
     </main>
     <footer>
         <div>
@@ -725,7 +793,27 @@
     <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
     <script type="text/javascript">
         ScrollOut({
-            targets: ".percentage"
+            targets: ".percentage, .level"
+        });
+    </script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            coverflowEffect: {
+                rotate: 0,
+                stretch: 0,
+                depth: 150,
+                modifier: 1,
+                slideShadows: false,
+            },
+            loop: false,
+            pagination: {
+                el: ".swiper-pagination",
+            },
         });
     </script>
 </body>

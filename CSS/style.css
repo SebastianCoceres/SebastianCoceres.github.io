@@ -416,12 +416,26 @@ footer{
 
 .skills-cards_container {
     width: 100%;
-    display: flex;
-    gap: 1rem;
-    overflow-x: scroll;
-    overscroll-behavior-x: contain;
-    scroll-snap-type: x mandatory;
 }
+
+.swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 95%;
+    max-width: 300px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+  }
+
 
 .skills-cards_container .skills-card {
     display: flex;
@@ -430,9 +444,10 @@ footer{
     padding: 2rem 1rem;
     border: 1px solid rgba(200, 150, 0, 0.2);
     border-radius: 1rem;
-    margin: 1rem 0;
-    min-width: 260px;
-    scroll-snap-align: center;
+    max-width: 260px;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.5);
 }
 
 .skills-cards_container .skills-card:nth-child(2n-1) {
@@ -453,7 +468,7 @@ footer{
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 50%;
-    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 
 .skills-cards_container .platzi .course-center_logo {
@@ -878,14 +893,19 @@ footer{
 .languages .languages-card_description li div:nth-child(2){
     width: 60%;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: flex-start; */
+    align-items: center;
+    
 }
 
 .languages .languages-card_description li div:nth-child(2) div{
     width: 30%;
     height: 100%;
     border: 1px solid;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); 
+    margin: 0.5rem;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    transition-delay: 0.5s;
+    transition: 5s;
 }
 
 .english .reading div:nth-child(2) div{
@@ -912,6 +932,12 @@ footer{
 .italian .speaking div:nth-child(2) div:nth-child(1){
     background-color: var(--rookie);
 }
+
+.languages .languages-card_description li div.level[data-scroll="out"]{
+    background-color: var(--grey);
+    
+}
+
 
 .contact {
     height: auto;
