@@ -1133,6 +1133,41 @@ footer div{
 }
 
 footer div a{
-    color: var(--gold);
     text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--white-text);
+}
+
+footer .footer-name a .goldLetter {
+    color: var(--gold);
+}
+
+footer .footer-name a:before {
+    content: "<";
+}
+
+footer .footer-name a:after {
+    content: ">";
+}
+
+.animate-flicker {
+    opacity: 1;
+    animation: flickerAnimation 1s infinite;
+    color: var(--main-color);
+}
+
+@keyframes flickerAnimation {
+
+    /* flame pulses */
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
