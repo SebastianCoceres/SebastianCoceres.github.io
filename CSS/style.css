@@ -312,6 +312,12 @@ footer{
     margin-left: 2rem;
 }
 
+.education-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .education .education-card{
     margin-top: 1rem;
 }
