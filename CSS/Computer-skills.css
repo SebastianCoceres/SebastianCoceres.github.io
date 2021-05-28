@@ -1,0 +1,104 @@
+.html5 .computer-skill-logo span {
+    background-image: url("../Assets/Icons/svg/html-5.svg");
+}
+
+.css .computer-skill-logo span {
+    background-image: url("../Assets/Icons/svg/css-3.svg");
+}
+
+.js .computer-skill-logo span {
+    background-image: url("../Assets/Icons/svg/javascript.svg");
+}
+
+.git .computer-skill-logo span {
+    background-image: url("../Assets/Icons/svg/Git.webp");
+}
+
+.ubuntu .computer-skill-logo span {
+    background-image: url("../Assets/Icons/svg/ubuntu.webp");
+}
+
+.DB-skill .computer-skill-logo span {
+    background-image: url("../Assets/Icons/svg/dataBase.webp");
+}
+
+.Excel .computer-skill-logo span {
+    background-image: url("../Assets/Icons/svg/excel.svg");
+}
+
+.Word .computer-skill-logo span {
+    background-image: url("../Assets/Icons/svg/word.svg");
+}
+
+.ppt .computer-skill-logo span {
+    background-image: url("../Assets/Icons/svg/powerpoint.svg");
+}
+
+.Ilustrator .computer-skill-logo span {
+    background-image: url("../Assets/Icons/svg/adobe_illustrator-icon.svg");
+}
+
+.Figma .computer-skill-logo span {
+    background-image: url("../Assets/Icons/svg/figma_logo_icon.svg");
+}
+
+
+
+
+/*Percentages*/
+
+.html5 .track .percentage[data-scroll="in"] {
+
+    width: 90%;
+    background-color: var(--advance);
+}
+
+.css .track .percentage[data-scroll="in"] {
+    width: 75%;
+    background-color: var(--medium);
+}
+
+.js .track .percentage[data-scroll="in"] {
+    width: 65%;
+    background-color: var(--medium);
+}
+
+.git .track .percentage[data-scroll="in"] {
+    width: 75%;
+    background-color: var(--medium);
+}
+
+.ubuntu .track .percentage[data-scroll="in"] {
+    width: 65%;
+    background-color: var(--medium);
+}
+
+.DB-skill .track .percentage[data-scroll="in"] {
+    width: 50%;
+    background-color: var(--rookie);
+}
+
+.Excel .track .percentage[data-scroll="in"] {
+    width: 90%;
+    background-color: var(--advance);
+}
+
+.Word .track .percentage[data-scroll="in"] {
+    width: 80%;
+    background-color: var(--advance);
+}
+
+.ppt .track .percentage[data-scroll="in"] {
+    width: 75%;
+    background-color: var(--advance);
+}
+
+.Ilustrator .track .percentage[data-scroll="in"] {
+    width: 60%;
+    background-color: var(--medium);
+}
+
+.Figma .track .percentage[data-scroll="in"] {
+    width: 75%;
+    background-color: var(--advance);
+}

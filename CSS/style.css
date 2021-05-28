@@ -94,7 +94,7 @@ header {
 
 #toggle.active::before {
     transform: translateY(0) rotate(45deg);
-    background-color:#C74D69;
+    background-color: #C74D69;
 }
 
 #toggle.active::after {
@@ -102,7 +102,7 @@ header {
     background-color: #C74D69;
 }
 
-.main-nav{
+.main-nav {
     width: 100%;
     position: absolute;
     top: 5.8rem;
@@ -168,7 +168,7 @@ header {
 .languages,
 .contact,
 .reference,
-footer{
+footer {
     border-top: 0.5rem solid var(--gold);
 }
 
@@ -280,7 +280,7 @@ footer{
     padding: 2rem;
 }
 
-.education{
+.education {
     padding: 3rem;
 }
 
@@ -318,7 +318,7 @@ footer{
     justify-content: center;
 }
 
-.education .education-card{
+.education .education-card {
     margin-top: 1rem;
 }
 
@@ -399,14 +399,14 @@ footer{
     background-repeat: no-repeat;
 }
 
-.skills-flecha{
+.skills-flecha {
     width: 1rem;
     height: 1rem;
     position: absolute;
     top: calc(50% - 0.5rem)
 }
 
-.skills-flecha.flecha-izquierda{
+.skills-flecha.flecha-izquierda {
     background-image: url("../Assets/Icons/svg/keyboard-left-arrow-button.svg");
     background-position: center;
     background-repeat: no-repeat;
@@ -414,7 +414,7 @@ footer{
     left: 1rem;
 }
 
-.skills-flecha.flecha-derecha{
+.skills-flecha.flecha-derecha {
     background-image: url("../Assets/Icons/svg/keyboard-right-arrow-button.svg");
     background-position: center;
     background-repeat: no-repeat;
@@ -430,10 +430,10 @@ footer{
     width: 100%;
     padding-top: 50px;
     padding-bottom: 50px;
-  }
+}
 
 
-  .swiper-slide {
+.swiper-slide {
     background-position: center;
     background-size: cover;
     width: 95%;
@@ -442,7 +442,7 @@ footer{
     display: flex;
     justify-content: center;
     padding: 1rem;
-  }
+}
 
 
 .skills-cards_container .skills-card {
@@ -496,8 +496,12 @@ footer{
     background-image: url("../Assets/Images/School.png");
 }
 
-.skills-cards_container .Domestika .course-center_logo{
+.skills-cards_container .Domestika .course-center_logo {
     background-image: url("../Assets/Icons/svg/Domestika.png");
+}
+
+.skills-cards_container .Google .course-center_logo {
+    background-image: url("../Assets/Icons/svg/Google__G__Logo.svg.webp");
 }
 
 
@@ -703,42 +707,6 @@ footer{
     background-repeat: no-repeat;
 }
 
-.html5 .computer-skill-logo span {
-    background-image: url("../Assets/Icons/svg/html-5.svg");
-}
-
-.css .computer-skill-logo span {
-    background-image: url("../Assets/Icons/svg/css-3.svg");
-}
-
-.js .computer-skill-logo span {
-    background-image: url("../Assets/Icons/svg/javascript.svg");
-}
-
-.git .computer-skill-logo span {
-    background-image: url("../Assets/Icons/svg/Git.webp");
-}
-
-.ubuntu .computer-skill-logo span {
-    background-image: url("../Assets/Icons/svg/ubuntu.webp");
-}
-
-.DB-skill .computer-skill-logo span {
-    background-image: url("../Assets/Icons/svg/dataBase.webp");
-}
-
-.Excel .computer-skill-logo span {
-    background-image: url("../Assets/Icons/svg/excel.svg");
-}
-
-.Word .computer-skill-logo span {
-    background-image: url("../Assets/Icons/svg/word.svg");
-}
-
-.ppt .computer-skill-logo span {
-    background-image: url("../Assets/Icons/svg/powerpoint.svg");
-}
-
 .computer-skill-card .computer-skill-name {
     grid-column: 2/3;
     width: 100%;
@@ -760,61 +728,9 @@ footer{
     transition: 2s;
 }
 
-.html5 .track .percentage[data-scroll="in"] {
-
-    width: 90%;
+.track .percentage[data-scroll="in"] {
     height: 100%;
-    background-color: var(--advance);
 }
-
-.css .track .percentage[data-scroll="in"] {
-    width: 75%;
-    height: 100%;
-    background-color: var(--medium);
-}
-
-.js .track .percentage[data-scroll="in"] {
-    width: 65%;
-    height: 100%;
-    background-color: var(--medium);
-}
-
-.git .track .percentage[data-scroll="in"] {
-    width: 75%;
-    height: 100%;
-    background-color: var(--medium);
-}
-
-.ubuntu .track .percentage[data-scroll="in"] {
-    width: 65%;
-    height: 100%;
-    background-color: var(--medium);
-}
-
-.DB-skill .track .percentage[data-scroll="in"] {
-    width: 50%;
-    height: 100%;
-    background-color: var(--rookie);
-}
-
-.Excel .track .percentage[data-scroll="in"] {
-    width: 90%;
-    height: 100%;
-    background-color: var(--advance);
-}
-
-.Word .track .percentage[data-scroll="in"] {
-    width: 80%;
-    height: 100%;
-    background-color: var(--advance);
-}
-
-.ppt .track .percentage[data-scroll="in"] {
-    width: 75%;
-    height: 100%;
-    background-color: var(--advance);
-}
-
 
 .languages {
     font-size: 1.4rem;
@@ -854,7 +770,7 @@ footer{
     margin-left: 2rem;
 }
 
-.languages .languages-card_container{
+.languages .languages-card_container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -862,14 +778,14 @@ footer{
     margin-top: 3rem;
 }
 
-.languages .languages-card{
+.languages .languages-card {
     width: 100%;
     margin: 1rem;
     min-width: 26rem;
     max-width: 35rem;
 }
 
-.languages .languages-card_title{
+.languages .languages-card_title {
     text-align: center;
     padding: 1rem;
     background-color: var(--background-color);
@@ -878,40 +794,40 @@ footer{
     box-shadow: 5px 2px 10px rgba(0, 0, 0, 0.2);
 }
 
-.languages .languages-card_title h3{
+.languages .languages-card_title h3 {
     font-size: 1.8rem;
 }
 
-.languages .languages-card_title p{
+.languages .languages-card_title p {
     font-size: 1.2rem;
 }
 
-.languages .languages-card_description{
+.languages .languages-card_description {
     list-style: none;
     border-left: 1px solid var(--black-text);
     border-right: 1px solid var(--black-text);
     border-bottom: 1px solid var(--black-text);
     padding: 1rem;
     border-radius: 0 0 1rem 1rem;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); 
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
     font-size: 1.6rem;
 }
 
-.languages .languages-card_description li{
+.languages .languages-card_description li {
     display: flex;
     justify-content: space-between;
     margin: 1rem 0;
 }
 
-.languages .languages-card_description li div:nth-child(2){
+.languages .languages-card_description li div:nth-child(2) {
     width: 60%;
     display: flex;
     /* justify-content: flex-start; */
     align-items: center;
-    
+
 }
 
-.languages .languages-card_description li div:nth-child(2) div{
+.languages .languages-card_description li div:nth-child(2) div {
     width: 30%;
     height: 100%;
     border: 1px solid;
@@ -921,34 +837,34 @@ footer{
     transition: 5s;
 }
 
-.english .reading div:nth-child(2) div{
+.english .reading div:nth-child(2) div {
     background-color: var(--advance);
 }
 
-.english .writing div:nth-child(2) div{
+.english .writing div:nth-child(2) div {
     background-color: var(--advance);
 }
 
-.english .speaking div:nth-child(2) div:nth-child(1), 
-.english .speaking div:nth-child(2) div:nth-child(2){
+.english .speaking div:nth-child(2) div:nth-child(1),
+.english .speaking div:nth-child(2) div:nth-child(2) {
     background-color: var(--medium);
 }
 
-.italian .reading div:nth-child(2) div:nth-child(1){
+.italian .reading div:nth-child(2) div:nth-child(1) {
     background-color: var(--rookie);
 }
 
-.italian .writing div:nth-child(2) div:nth-child(1){
+.italian .writing div:nth-child(2) div:nth-child(1) {
     background-color: var(--rookie);
 }
 
-.italian .speaking div:nth-child(2) div:nth-child(1){
+.italian .speaking div:nth-child(2) div:nth-child(1) {
     background-color: var(--rookie);
 }
 
-.languages .languages-card_description li div.level[data-scroll="out"]{
+.languages .languages-card_description li div.level[data-scroll="out"] {
     background-color: var(--grey);
-    
+
 }
 
 
@@ -1138,12 +1054,12 @@ footer {
     color: var(--white-text);
 }
 
-footer div{
+footer div {
     width: 80%;
     text-align: center;
 }
 
-footer div a{
+footer div a {
     text-decoration: none;
     font-family: 'Ubuntu', sans-serif;
     color: var(--white-text);
