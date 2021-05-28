@@ -496,6 +496,11 @@ footer{
     background-image: url("../Assets/Images/School.png");
 }
 
+.skills-cards_container .Domestika .course-center_logo{
+    background-image: url("../Assets/Icons/svg/Domestika.png");
+}
+
+
 .skills-cards_container .course {
     width: 80%;
     padding-left: 2rem;
