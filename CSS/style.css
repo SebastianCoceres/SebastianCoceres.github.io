@@ -1,5 +1,6 @@
 :root {
     --gold: #C89600;
+    --transparent-gold: rgba(200, 150, 0, 0.8);
     --background-color: #454545;
     --grey: #DDDDDD;
     --black-text: #262626;
@@ -21,6 +22,7 @@
 html {
     font-size: 62.5%;
     font-family: "DM Sans", sans-serif;
+    scroll-behavior: smooth;
 }
 
 ::-webkit-scrollbar {
@@ -61,6 +63,12 @@ header {
     z-index: 100;
 }
 
+.header-out {
+    background-color: transparent;
+    border-bottom: none;
+}
+
+
 
 #toggle {
     margin-right: 3rem;
@@ -70,6 +78,17 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.header-out .toogle-out {
+    background: var(--grey);
+    border: 1px solid rgba(200, 150, 0, 0.5);
+    transition: 0.2s;
+    border-radius: 10px;
+    box-shadow: inset 5px 5px 10px #c2c2c2,
+                inset -5px -5px 10px #f8f8f8,
+                2px 2px 5px var(--background-color);
+
 }
 
 #toggle::before {
@@ -89,6 +108,16 @@ header {
     height: 0.2rem;
     background-color: var(--gold);
     transform: translateY(5px);
+    transition: 0.2s;
+}
+
+#toggle.toogle-out.active {
+    width: 100%;
+    height: 100%;
+    margin-right: 0;
+    background-color: var(--grey);
+    border-radius: 0px;
+    box-shadow: none;
     transition: 0.2s;
 }
 
@@ -139,7 +168,6 @@ header {
 
 .main-nav #nav-items li:hover {
     background-color: var(--background-color);
-    border-radius: 2rem;
 }
 
 .main-nav #nav-items li:active {
@@ -158,6 +186,7 @@ header {
 .main-nav #nav-items li a:hover {
     color: var(--gold);
 }
+
 
 .landing-face,
 .aboutMe,

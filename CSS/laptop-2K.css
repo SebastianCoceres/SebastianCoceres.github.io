@@ -1,3 +1,7 @@
+.header-out #nav-items ul li:hover{
+    width: 20rem;
+}
+
 .relleno{
     height: 6rem;
     width: 100%;
@@ -52,17 +56,12 @@
 
 .contact .contact-container {
     max-width: 900px;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .contact .contact-container div {
     width: 35%;
-    max-width: 500px;
     margin: 0.5rem;
-}
-
-.contact .contact-container div:nth-child(2n-1) span{
-    float: right;
 }
 
 .contact a {
