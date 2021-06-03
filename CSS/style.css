@@ -2,6 +2,8 @@
     --gold: #C89600;
     --transparent-gold: rgba(200, 150, 0, 0.8);
     --background-color: #454545;
+    --greyBackground-color: #DDDDDD;
+    --whiteBackground-color: #FAFAFA;
     --grey: #DDDDDD;
     --black-text: #262626;
     --grey-text: #555555;
@@ -23,6 +25,7 @@ html {
     font-size: 62.5%;
     font-family: "DM Sans", sans-serif;
     scroll-behavior: smooth;
+    color: var(--black-text);
 }
 
 ::-webkit-scrollbar {
@@ -56,7 +59,7 @@ header {
     justify-content: flex-end;
     height: 6rem;
     width: 100%;
-    background: var(--grey);
+    background: var(--greyBackground-color);
     font-size: 1.8rem;
     position: fixed;
     border-bottom: 1px solid rgba(200, 150, 0, 0.5);
@@ -207,7 +210,7 @@ footer {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: var(--background-color);
+    background-color: #454545;
     padding: 3rem;
 }
 
@@ -275,16 +278,7 @@ footer {
 .aboutMe {
     font-size: 1.4rem;
     padding: 3rem;
-    background-color: var(--grey);
-}
-
-.aboutMe .aboutMe-title {
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    justify-items: center;
-    align-items: center;
-    padding: 1rem;
-    margin-bottom: 2rem;
+    background-color: var(--whiteBackground-color);
 }
 
 .aboutMe-title span {
@@ -298,6 +292,16 @@ footer {
     background-repeat: no-repeat;
 }
 
+.aboutMe .aboutMe-title {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    justify-items: center;
+    align-items: center;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    color: var(--black-text);
+}
+
 .aboutMe-title h2 {
     font-size: 2rem;
     grid-column: 2/4;
@@ -307,10 +311,12 @@ footer {
 
 .aboutMe-container {
     padding: 2rem;
+    color: var(--black-text);
 }
 
 .education {
     padding: 3rem;
+    background-color: var(--whiteBackground-color);
 }
 
 
@@ -321,6 +327,7 @@ footer {
     align-items: center;
     padding: 1rem;
     margin-bottom: 2rem;
+    color: var(--black-text);
 }
 
 .education span {
@@ -352,7 +359,7 @@ footer {
 }
 
 .education .education-college {
-    background-color: var(--grey);
+    background-color: var(--greyBackground-color);
     padding: 2rem;
     border-radius: 1rem;
 }
@@ -385,7 +392,7 @@ footer {
     border-right: 1px solid var(--grey);
     border-left: 1px solid var(--grey);
     border-radius: 0 0 1rem 1rem;
-
+    background-color: var(--whiteBackground-color);
 }
 
 .skills {
@@ -397,6 +404,7 @@ footer {
     padding: 3rem;
     flex-direction: column;
     position: relative;
+    background-color: var(--whiteBackground-color);
 }
 
 .skills .skills-title {
@@ -408,6 +416,7 @@ footer {
     margin-bottom: 2rem;
     width: 100%;
     position: relative;
+    color: var(--black-text);
 }
 
 .skills-title h2 {
@@ -426,29 +435,6 @@ footer {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-}
-
-.skills-flecha {
-    width: 1rem;
-    height: 1rem;
-    position: absolute;
-    top: calc(50% - 0.5rem)
-}
-
-.skills-flecha.flecha-izquierda {
-    background-image: url("../Assets/Icons/svg/keyboard-left-arrow-button.svg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    left: 1rem;
-}
-
-.skills-flecha.flecha-derecha {
-    background-image: url("../Assets/Icons/svg/keyboard-right-arrow-button.svg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    right: 1rem;
 }
 
 .skills-cards_container {
@@ -558,8 +544,8 @@ footer {
 }
 
 .experience {
-    background-color: var(--grey);
     padding: 3rem;
+    background-color: var(--whiteBackground-color);
 }
 
 .experience .cards {
@@ -578,6 +564,7 @@ footer {
     align-items: center;
     padding: 1rem;
     margin-bottom: 2rem;
+    color: var(--black-text);
 }
 
 .experience .experience-title span {
@@ -627,6 +614,7 @@ footer {
 
 .experience .card-head .card-head_title h3 {
     font-size: 1.4rem;
+    color: var(--white-text);
 }
 
 .experience .card-head .card-head_title a {
@@ -662,7 +650,7 @@ footer {
 .experience .card-job_description {
     width: 90%;
     margin: 0 auto;
-    background-color: var(--grey);
+    background-color: var(--greyBackground-color);
     padding: 2rem;
     font-size: 1.4rem;
     border-radius: 1rem;
@@ -682,6 +670,7 @@ footer {
     align-items: center;
     padding: 3rem;
     flex-direction: column;
+    background-color: var(--whiteBackground-color);
 }
 
 .computer-skill .computer-skill-title {
@@ -692,6 +681,7 @@ footer {
     padding: 1rem;
     margin-bottom: 2rem;
     width: 100%;
+    color: var(--black-text);
 }
 
 .computer-skill-title h2 {
@@ -740,13 +730,14 @@ footer {
     width: 100%;
     text-align: left;
     padding-left: 2rem;
+    color: var(--black-text);
 }
 
 .computer-skill-card .track {
     grid-column: 3/4;
     width: 100%;
     height: 1.5rem;
-    border: 1px solid black;
+    border: 1px solid var(--black-text);
 }
 
 .computer-skill-card .track .percentage {
@@ -763,7 +754,7 @@ footer {
 .languages {
     font-size: 1.4rem;
     padding: 3rem;
-    background-color: var(--grey);
+    background-color: var(--whiteBackground-color);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -778,6 +769,7 @@ footer {
     padding: 1rem;
     margin-bottom: 2rem;
     width: 100%;
+    color: var(--black-text);
 }
 
 .languages-title span {
@@ -832,6 +824,7 @@ footer {
 
 .languages .languages-card_description {
     list-style: none;
+    background-color: var(--greyBackground-color);
     border-left: 1px solid var(--black-text);
     border-right: 1px solid var(--black-text);
     border-bottom: 1px solid var(--black-text);
@@ -850,18 +843,16 @@ footer {
 .languages .languages-card_description li div:nth-child(2) {
     width: 60%;
     display: flex;
-    /* justify-content: flex-start; */
     align-items: center;
 
 }
 
-.languages .languages-card_description li div:nth-child(2) div {
+.languages .languages-card_description li div:nth-child(2) .level {
     width: 30%;
     height: 100%;
     border: 1px solid;
     margin: 0.5rem;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-    transition-delay: 0.5s;
     transition: 5s;
 }
 
@@ -903,6 +894,7 @@ footer {
     align-items: center;
     padding: 3rem;
     flex-direction: column;
+    background-color: var(--whiteBackground-color);
 }
 
 .contact .contact-title {
@@ -913,6 +905,7 @@ footer {
     padding: 1rem;
     margin-bottom: 2rem;
     width: 100%;
+    color: var(--black-text);
 }
 
 .contact-title h2 {
@@ -1013,6 +1006,7 @@ footer {
     align-items: center;
     padding: 3rem;
     flex-direction: column;
+    background-color: var(--whiteBackground-color);
 }
 
 .reference .reference-title {
@@ -1023,6 +1017,7 @@ footer {
     padding: 1rem;
     margin-bottom: 2rem;
     width: 100%;
+    color: var(--black-text);
 }
 
 .reference-title h2 {
@@ -1046,6 +1041,7 @@ footer {
 .reference .reference-contacts div {
     padding: 2rem;
     font-size: 1.4rem;
+    color: var(--black-text);
 }
 
 .reference .reference-contacts div>p {
@@ -1078,8 +1074,8 @@ footer {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background-color: var(--background-color);
-    color: var(--white-text);
+    background-color: #454545;
+    color: #FAFAFA;
 }
 
 footer div {
@@ -1090,7 +1086,7 @@ footer div {
 footer div a {
     text-decoration: none;
     font-family: 'Ubuntu', sans-serif;
-    color: var(--white-text);
+    color: var(--gold);
 }
 
 footer .footer-name a .goldLetter {
@@ -1108,7 +1104,7 @@ footer .footer-name a:after {
 .animate-flicker {
     opacity: 1;
     animation: flickerAnimation 1s infinite;
-    color: var(--main-color);
+    color: var(--gold);
 }
 
 @keyframes flickerAnimation {
