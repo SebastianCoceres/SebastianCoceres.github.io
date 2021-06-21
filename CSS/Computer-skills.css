@@ -49,23 +49,23 @@
 
 .html5 .track .percentage[data-scroll="in"] {
 
-    width: 90%;
+    width: 80%;
     background-color: var(--advance);
 }
 
 .css .track .percentage[data-scroll="in"] {
-    width: 75%;
-    background-color: var(--medium);
+    width: 80%;
+    background-color: var(--advance);
 }
 
 .js .track .percentage[data-scroll="in"] {
-    width: 65%;
+    width: 70%;
     background-color: var(--medium);
 }
 
 .git .track .percentage[data-scroll="in"] {
-    width: 75%;
-    background-color: var(--medium);
+    width: 80%;
+    background-color: var(--advance);
 }
 
 .ubuntu .track .percentage[data-scroll="in"] {
