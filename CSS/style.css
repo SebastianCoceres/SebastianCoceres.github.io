@@ -58,7 +58,7 @@ header {
     align-items: center;
     justify-content: flex-end;
     height: 6rem;
-    width: 100%;
+    width: 100vw;
     background: var(--greyBackground-color);
     font-size: 1.8rem;
     position: fixed;
@@ -190,6 +190,9 @@ header {
     color: var(--gold);
 }
 
+.main-container {
+    overflow-x: hidden;
+}
 
 .landing-face,
 .aboutMe,
